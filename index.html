@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trợ lý du lịch thông minh</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="app-container">
+        <!-- Navigation Panel (Conversations) -->
+        <div class="navigation-panel hidden sm:flex">
+            <h2 class="panel-title">🗂️ Lịch sử trò chuyện</h2>
+            <button id="start-new-conversation-button" class="new-chat-btn-nav">
+                <!-- Updated icon to travel-themed -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                    <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.537 60.537 0 0018.445-8.986.75.75 0 000-1.22l-18.445-8.985z" />
+                </svg>
+                <span>Chuyến đi mới</span>
+            </button>
+            <div id="conversation-list" class="conversation-list">
+                <!-- Conversation items will be injected here by JavaScript -->
+            </div>
+            <button id="delete-chat-btn" class="delete-chat-btn-nav">
+                <!-- Delete icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9.74l-4.5 4.5m0-4.5l4.5 4.5M6 18h12a2 2 0 002-2V8a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+                <span>Xóa cuộc trò chuyện hiện tại</span>
+            </button>
+        </div>
+
+        <!-- Chat Panel -->
+        <div class="chat-panel">
+            <!-- Header for chat and mobile navigation -->
+            <div class="chat-header">
+                <button id="toggle-nav-button" class="mobile-nav-toggle sm:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <h1 id="current-chat-name" class="current-chat-name">Trợ lý du lịch</h1>
+                <button id="delete-chat-btn" class="delete-chat-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M16.5 4.478v.227a48.842 48.842 0 013.86 2.053.75.75 0 01-.157 1.342l-1.025.385a.75.75 0 01-.86.295 14.542 14.542 0 00-6.315-1.996.75.75 0 01-.371-1.455v-.31a48.842 48.842 0 01.995-2.022.75.75 0 011.31-.056l.092.115zM2.52 7.82a.75.75 0 01-.157-1.342l1.025-.385a.75.75 0 01.86-.295 14.542 14.542 0 006.315 1.996.75.75 0 01.371 1.455v.31a48.842 48.842 0 01-.995 2.022.75.75 0 01-1.31.056l-.092-.115z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Main chat area -->
+            <div id="chat-messages" class="chat-messages">
+                <!-- Messages will be dynamically added here -->
+            </div>
+            <!-- Input area -->
+            <div class="chat-input-container">
+                <input type="file" id="image-upload" accept="image/*" class="hidden">
+                <button id="image-upload-button" class="upload-btn" title="Tải ảnh lên">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.085l3.249-3.415a.75.75 0 01.99-.08l5.59 4.31a.75.75 0 00.957-.091l3.712-3.865c.34-.353.94-.353 1.28 0L21 16.96V6a.75.75 0 00-.75-.75H3.75A.75.75 0 003 6v10.085zM7.5 7.5a1.5 1.5 0 100 3a1.5 1.5 0 000-3z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+                <input type="text" id="chat-input" class="chat-input" placeholder="Nhập tin nhắn của bạn...">
+                <button id="send-button" class="send-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.537 60.537 0 0018.445-8.986.75.75 0 000-1.22L3.478 2.405z" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Image preview area -->
+            <div id="image-preview" class="image-preview-container hidden">
+                <img id="preview-image" src="" alt="Image preview" class="preview-image">
+                <button id="remove-image-btn" class="remove-image-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+            </div>
+            <!-- Suggested questions -->
+            <div id="suggested-questions" class="suggested-questions-container">
+                <button class="question-button">🌳 Những điểm tham quan tự nhiên?</button>
+                <button class="question-button">🍜 Các món ăn đặc sản?</button>
+                <button class="question-button">🗺️ Gợi ý lịch trình du lịch?</button>
+                <button class="question-button">🎭 Những lễ hội truyền thống nổi bật?</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dialog for New Conversation Name -->
+    <div id="new-chat-dialog" class="dialog-container hidden">
+        <div class="dialog-content">
+            <h3 class="text-xl font-semibold text-center">🗺️ Đặt tên cho chuyến đi mới</h3>
+            <input type="text" id="new-chat-name-input" class="dialog-input" placeholder="Nhập tên chuyến đi (ví dụ: Kế hoạch du lịch Đà Lạt)">
+            <div class="dialog-buttons">
+                <button id="cancel-new-chat-btn" class="dialog-btn dialog-btn-cancel">Hủy</button>
+                <button id="confirm-new-chat-btn" class="dialog-btn dialog-btn-confirm">Bắt đầu chuyến đi</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dialog for Delete Confirmation -->
+    <div id="delete-confirm-dialog" class="delete-confirm-dialog hidden">
+        <div class="delete-confirm-content">
+            <h3 class="text-xl font-semibold mb-4">⚠️ Xác nhận xóa</h3>
+            <p class="mb-6">Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?</p>
+            <div class="flex justify-center gap-4">
+                <button id="cancel-delete-btn" class="dialog-btn dialog-btn-cancel">Hủy</button>
+                <button id="confirm-delete-btn" class="dialog-btn dialog-btn-confirm bg-red-500 hover:bg-red-600">Xóa</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
