@@ -1,0 +1,23 @@
+{
+  "id": "f6a7b8c9-4b3a-11ee-be56-0242ac120002",
+  "name": "AskContact",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Liên hệ với chúng tôi dễ dàng! 📞\n\n**Hotline:** 1900-xxxx (24/7)\n**Email:** info@taybactour.vn\n**Website:** www.taybactour.vn\n**Địa chỉ:** 123 Đường ABC, Hà Nội\n\n**Fanpage:** fb.com/taybactour\n**Zalo:** @taybactour\n\nChúng tôi luôn sẵn sàng hỗ trợ bạn! 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

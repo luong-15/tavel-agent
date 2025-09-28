@@ -1,0 +1,58 @@
+{
+  "id": "44444444-5555-6666-7777-888888888888",
+  "name": "CancelBooking",
+  "auto": true,
+  "contexts": ["booking_active"],
+  "userSays": [
+    {
+      "id": "cancel-1",
+      "data": [
+        {
+          "text": "hủy tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cancel-2",
+      "data": [
+        {
+          "text": "hủy booking",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cancel-3",
+      "data": [
+        {
+          "text": "không đi nữa",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tôi hiểu bạn muốn hủy tour. Vui lòng cung cấp mã booking để tôi kiểm tra chính sách hủy và hỗ trợ bạn. Lưu ý: Hủy trước 7 ngày được hoàn tiền 100%! ❌"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

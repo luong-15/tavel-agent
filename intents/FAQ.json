@@ -1,0 +1,92 @@
+{
+  "id": "ef3e2d1c-4b3a-11ee-be56-0242ac120002",
+  "name": "FAQ",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "faq-1",
+      "data": [
+        {
+          "text": "thời tiết",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-2",
+      "data": [
+        {
+          "text": "đồ mang theo",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-3",
+      "data": [
+        {
+          "text": "thanh toán như thế nào",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-4",
+      "data": [
+        {
+          "text": "ăn gì ở Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-5",
+      "data": [
+        {
+          "text": "ở đâu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "faq-topic-id",
+          "name": "topic",
+          "dataType": "@sys.any",
+          "required": true,
+          "isList": false,
+          "prompts": [
+            "Bạn cần hỗ trợ về vấn đề gì?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thông tin về $topic:\n\n🌤️ **Thời tiết Tây Bắc:** Mát mẻ quanh năm (15-25°C), tốt nhất từ tháng 9-11. Tháng 12-2 có thể lạnh về đêm.\n\n📝 **Đồ cần mang:** Quần áo ấm, áo mưa, giày đi bộ, thuốc cá nhân, kem chống nắng, nón rộng vành.\n\n💳 **Thanh toán:** Tiền mặt, chuyển khoản ngân hàng, thẻ tín dụng (Visa/MasterCard), ví điện tử (Momo/ZaloPay).\n\n🏨 **Khách sạn:** 3-4 sao, homestay truyền thống tùy tour.\n\n🍲 **Ẩm thực:** Thịt lợn bản, cá suối, thắng cố, rượu cần, rau rừng.\n\n📞 **Liên hệ:** Hotline 1900-xxxx hoặc chat trực tiếp.\n\nBạn cần hỗ trợ gì thêm không?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

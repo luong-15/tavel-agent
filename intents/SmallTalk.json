@@ -1,0 +1,80 @@
+{
+  "id": "c9d0e1f2-4b3a-11ee-be56-0242ac120002",
+  "name": "SmallTalk",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "smalltalk-1",
+      "data": [
+        {
+          "text": "bạn khỏe không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "smalltalk-2",
+      "data": [
+        {
+          "text": "tôi ổn",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "smalltalk-3",
+      "data": [
+        {
+          "text": "cảm ơn",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "smalltalk-4",
+      "data": [
+        {
+          "text": "tạm biệt",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "smalltalk-5",
+      "data": [
+        {
+          "text": "bye",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tôi luôn khỏe mạnh và sẵn sàng hỗ trợ bạn! 😊 Có gì tôi có thể giúp không?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

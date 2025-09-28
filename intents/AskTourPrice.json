@@ -1,0 +1,105 @@
+{
+  "id": "df2e1d0c-4b3a-11ee-be56-0242ac120002",
+  "name": "AskTourPrice",
+  "auto": true,
+  "contexts": [
+    "booking_active"
+  ],
+  "userSays": [
+    {
+      "id": "price-1",
+      "data": [
+        {
+          "text": "giá tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-2",
+      "data": [
+        {
+          "text": "bao nhiêu tiền",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-3",
+      "data": [
+        {
+          "text": "phí tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-4",
+      "data": [
+        {
+          "text": "giá cả thế nào",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-5",
+      "data": [
+        {
+          "text": "tour ",
+          "userDefined": false
+        },
+        {
+          "text": "@TayBacTour",
+          "alias": "TayBacTour",
+          "meta": "@TayBacTour",
+          "userDefined": false
+        },
+        {
+          "text": " giá bao nhiêu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [
+        {
+          "id": "bf0e9d8c-4b3a-11ee-be56-0242ac120002",
+          "name": "TayBacTour",
+          "required": false,
+          "dataType": "@TayBacTour"
+        },
+        {
+          "id": "9f8e7d6c-4b3a-11ee-be56-0242ac120002",
+          "name": "TransportType",
+          "required": false,
+          "dataType": "@TransportType"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tôi sẽ tư vấn giá tour cho bạn nhé! 💰\n\nTour $TayBacTour có các mức giá như sau:\n\n🚗 **Xe khách:** 2.500.000đ/người (tiết kiệm nhất)\n🚂 **Tàu hỏa:** 3.200.000đ/người (kinh nghiệm độc đáo)\n✈️ **Máy bay:** 4.500.000đ/người (nhanh chóng và thoải mái)\n\n💡 **Giá đã bao gồm:** Vé di chuyển khứ hồi, khách sạn 3 sao, ăn uống 3 bữa/ngày, hướng dẫn viên chuyên nghiệp, bảo hiểm du lịch.\n\n🎁 **Ưu đãi đặc biệt:** Giảm 10% cho nhóm từ 5 người trở lên! Còn nhiều khuyến mãi khác nữa.\n\nBạn muốn chọn phương tiện nào? Hay tôi có thể tư vấn thêm về lịch trình không? 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

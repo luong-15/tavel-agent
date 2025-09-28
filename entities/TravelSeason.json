@@ -1,0 +1,25 @@
+{
+  "id": "12345678-1234-1234-1234-123456789abc",
+  "name": "TravelSeason",
+  "isOverridable": true,
+  "isEnum": true,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "spring",
+      "synonyms": ["mùa xuân", "tháng 2-4", "tháng 2 đến tháng 4", "xuân"]
+    },
+    {
+      "value": "summer",
+      "synonyms": ["mùa hè", "tháng 5-8", "tháng 5 đến tháng 8", "hè"]
+    },
+    {
+      "value": "autumn",
+      "synonyms": ["mùa thu", "tháng 9-11", "tháng 9 đến tháng 11", "thu"]
+    },
+    {
+      "value": "winter",
+      "synonyms": ["mùa đông", "tháng 12-1", "tháng 12 đến tháng 1", "đông"]
+    }
+  ]
+}

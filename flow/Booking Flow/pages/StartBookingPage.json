@@ -1,0 +1,65 @@
+{
+  "name": "projects/taybac-tour-bot/locations/global/agents/taybac-tour-bot/flows/Booking Flow/pages/StartBookingPage",
+  "displayName": "StartBookingPage",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "destination",
+        "entityType": "@TayBacDestination",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": ["Bạn muốn đi tour nào?"]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "displayName": "startDate",
+        "entityType": "@sys.date",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": ["Ngày khởi hành dự kiến?"]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "displayName": "numPeople",
+        "entityType": "@sys.number",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": ["Số lượng người tham gia?"]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "condition": "$page.params.status = FINAL",
+      "triggerFulfillment": {
+        "webhook": "calculatePrice"
+      },
+      "targetPage": "ConfirmDetailsPage"
+    }
+  ]
+}

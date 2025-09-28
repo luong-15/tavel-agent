@@ -1,0 +1,14 @@
+{
+  "id": "ff5e4d3c-4b3a-11ee-be56-0242ac120002",
+  "name": "ErrorHandling",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "type": "error",
+      "condition": "error.type == 'validation'",
+      "message": "Thông tin bạn cung cấp chưa hợp lệ. Vui lòng kiểm tra lại.",
+      "suggestions": ["Xem hướng dẫn", "Liên hệ hỗ trợ", "Thử lại"]
+    }
+  ]
+}

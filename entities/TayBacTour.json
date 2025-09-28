@@ -1,0 +1,21 @@
+{
+  "id": "bf0e9d8c-4b3a-11ee-be56-0242ac120002",
+  "name": "TayBacTour",
+  "isOverridable": true,
+  "isEnum": true,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "sapa_classic",
+      "synonyms": ["tour Sapa cơ bản", "tour Sapa tiêu chuẩn", "tour SP cơ bản", "SP classic"]
+    },
+    {
+      "value": "mocchau_tea",
+      "synonyms": ["tour Mộc Châu đồi chè", "tour chè Mộc Châu", "tour MC chè", "MC tea"]
+    },
+    {
+      "value": "maichau_culture",
+      "synonyms": ["tour văn hóa Mai Châu", "tour Mai Châu truyền thống", "tour MC văn hóa", "Mai Châu culture"]
+    }
+  ]
+}

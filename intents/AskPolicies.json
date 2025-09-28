@@ -1,0 +1,23 @@
+{
+  "id": "a7b8c9d0-4b3a-11ee-be56-0242ac120002",
+  "name": "AskPolicies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Chính sách của chúng tôi rất linh hoạt! 📋\n\n**💰 Thanh toán:**\n- Đặt cọc 30% khi đăng ký\n- Thanh toán đầy đủ trước 7 ngày khởi hành\n- Nhận hóa đơn VAT\n\n**❌ Hủy tour:**\n- Trước 15 ngày: Hoàn 100% cọc\n- 7-14 ngày: Hoàn 50% cọc\n- Dưới 7 ngày: Không hoàn cọc\n\n**🔄 Thay đổi:**\n- Miễn phí đổi tên trước 7 ngày\n- Phí đổi lịch: 500.000đ/người\n\n**🛡️ Bảo hiểm:** Bao gồm bảo hiểm du lịch 20 triệu đồng\n\nBạn cần chi tiết về điều nào?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

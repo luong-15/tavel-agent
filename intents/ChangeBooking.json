@@ -1,0 +1,58 @@
+{
+  "id": "33333333-4444-5555-6666-777777777777",
+  "name": "ChangeBooking",
+  "auto": true,
+  "contexts": ["booking_active"],
+  "userSays": [
+    {
+      "id": "change-1",
+      "data": [
+        {
+          "text": "thay đổi tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "change-2",
+      "data": [
+        {
+          "text": "sửa booking",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "change-3",
+      "data": [
+        {
+          "text": "đổi ngày đi",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bạn muốn thay đổi gì trong booking? Ngày khởi hành, số lượng người, hay phương tiện? Vui lòng cung cấp mã booking để tôi kiểm tra và hỗ trợ! 🔄"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

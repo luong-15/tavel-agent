@@ -1,0 +1,21 @@
+{
+  "id": "9f8e7d6c-4b3a-11ee-be56-0242ac120002",
+  "name": "TransportType",
+  "isOverridable": true,
+  "isEnum": true,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "xe_khach",
+      "synonyms": ["xe khách", "xe bus", "xe giường nằm", "bus"]
+    },
+    {
+      "value": "tau_hoa",
+      "synonyms": ["tàu hỏa", "tàu", "đường sắt", "train"]
+    },
+    {
+      "value": "may_bay",
+      "synonyms": ["máy bay", "chuyến bay", "đường hàng không", "plane", "bay"]
+    }
+  ]
+}

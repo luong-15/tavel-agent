@@ -1,0 +1,7 @@
+{
+  "name": "projects/taybac-tour-bot/locations/global/agents/taybac-tour-bot/flows/Booking Flow",
+  "displayName": "Booking Flow",
+  "description": "",
+  "transitionRoutes": [],
+  "eventHandlers": []
+}

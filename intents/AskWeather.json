@@ -1,0 +1,88 @@
+{
+  "id": "d4e5f6a7-4b3a-11ee-be56-0242ac120002",
+  "name": "AskWeather",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "weather-1",
+      "data": [
+        {
+          "text": "thời tiết",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "weather-2",
+      "data": [
+        {
+          "text": "thời tiết ở sapa",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "weather-3",
+      "data": [
+        {
+          "text": "trời hôm nay thế nào",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "weather-4",
+      "data": [
+        {
+          "text": "mùa nào đi tốt",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "weather-5",
+      "data": [
+        {
+          "text": "thời tiết tây bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [
+        {
+          "id": "weather-dest-id",
+          "name": "destination",
+          "dataType": "@TayBacDestination",
+          "required": false,
+          "prompts": ["Bạn muốn hỏi thời tiết ở đâu?"]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thời tiết Tây Bắc rất dễ chịu quanh năm! 🌤️\n\n**Mùa xuân (3-5):** Ấm áp, hoa đào nở, lý tưởng cho trekking\n**Mùa hè (6-8):** Nóng ẩm, nhiều mưa, thác nước đẹp\n**Mùa thu (9-11):** **Tốt nhất** - mát mẻ, ít mưa, cảnh quan tuyệt đẹp\n**Mùa đông (12-2):** Lạnh về đêm, sương mù, tuyết ở Sapa\n\nNhiệt độ trung bình: 15-25°C. Mang áo ấm nếu đi mùa đông!\n\nBạn muốn đi tour mùa nào?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

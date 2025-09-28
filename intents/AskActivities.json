@@ -1,0 +1,31 @@
+{
+  "id": "e5f6a7b8-4b3a-11ee-be56-0242ac120002",
+  "name": "AskActivities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [
+        {
+          "id": "activity-dest-id",
+          "name": "destination",
+          "dataType": "@TayBacDestination",
+          "required": false,
+          "prompts": ["Bạn muốn biết hoạt động ở đâu?"]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tây Bắc có vô vàn hoạt động thú vị! 🎉\n\n**🏔️ Sapa:** Trekking Fansipan, thăm bản Cát Cát, chợ phiên, thưởng thức văn hóa H'Mông\n\n**🌄 Mộc Châu:** Tham quan đồi chè, rừng thông, bản làng Thái, thưởng thức sữa bò tươi\n\n**🏞️ Mai Châu:** Chèo thuyền trên bản Lác, trải nghiệm homestay Thái, thưởng thức rượu cần, múa xòe\n\n**Hoạt động chung:** Ăn đặc sản, mua đồ thổ cẩm, tắm suối khoáng, tham quan di tích lịch sử.\n\nBạn quan tâm đến hoạt động nào nhất?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

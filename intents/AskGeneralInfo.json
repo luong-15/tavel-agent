@@ -1,0 +1,58 @@
+{
+  "id": "55555555-6666-7777-8888-999999999999",
+  "name": "AskGeneralInfo",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "info-1",
+      "data": [
+        {
+          "text": "thông tin về tour Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "info-2",
+      "data": [
+        {
+          "text": "tour du lịch Tây Bắc là gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "info-3",
+      "data": [
+        {
+          "text": "giới thiệu về Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tây Bắc Việt Nam là vùng đất tuyệt đẹp với núi rừng hùng vĩ, văn hóa đa dạng của các dân tộc thiểu số. Các tour của chúng tôi bao gồm Sapa, Mộc Châu, Mai Châu với trải nghiệm độc đáo như trekking, thưởng thức ẩm thực, homestay. Bạn quan tâm tour nào? 🏞️"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

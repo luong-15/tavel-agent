@@ -1,0 +1,21 @@
+{
+  "id": "af9e8d7c-4b3a-11ee-be56-0242ac120002",
+  "name": "TravelDuration",
+  "isOverridable": true,
+  "isEnum": true,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "2_ngay",
+      "synonyms": ["2 ngày 1 đêm", "hai ngày một đêm", "cuối tuần", "weekend", "2 ngày", "hai ngày", "ngắn ngày", "tour ngắn", "2N1Đ"]
+    },
+    {
+      "value": "3_ngay",
+      "synonyms": ["3 ngày 2 đêm", "ba ngày hai đêm", "3 ngày", "ba ngày", "tour 3 ngày", "trung bình", "3N2Đ", "3d", "3ngay"]
+    },
+    {
+      "value": "4_ngay",
+      "synonyms": ["4 ngày 3 đêm", "bốn ngày ba đêm", "4 ngày", "bốn ngày", "tour dài", "tour 4 ngày", "du lịch dài", "4N3Đ", "4d", "4ngay"]
+    }
+  ]
+}

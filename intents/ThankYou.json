@@ -1,0 +1,23 @@
+{
+  "id": "b2c3d4e5-4b3a-11ee-be56-0242ac120002",
+  "name": "ThankYou",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Cảm ơn bạn đã sử dụng dịch vụ của chúng tôi! 🎉\n\nNếu bạn cần hỗ trợ thêm về tour du lịch Tây Bắc, hãy nhắn tin cho tôi bất cứ lúc nào.\n\nChúc bạn có chuyến đi vui vẻ và nhiều kỷ niệm đẹp! 🌟"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

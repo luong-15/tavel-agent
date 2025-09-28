@@ -1,0 +1,83 @@
+{
+  "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
+  "name": "TayBacDestination",
+  "isOverridable": true,
+  "isEnum": false,
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "Sapa",
+      "synonyms": [
+        "Sa Pa",
+        "Thị trấn Sapa",
+        "Thành phố Sapa",
+        "Fansipan",
+        "Bản Cát Cát",
+        "Thác Bạc",
+        "Núi Hàm Rồng",
+        "SaPa",
+        "sapa",
+        "SAPA",
+        "Tỉnh Lào Cai",
+        "Lào Cai",
+        "Chợ phiên Bắc Hà",
+        "Bắc Hà",
+        "Y Tý",
+        "Tả Van",
+        "Tả Phìn",
+        "H'Mông",
+        "Dao đỏ",
+        "Giáy",
+        "SP",
+        "SaPa"
+      ]
+    },
+    {
+      "value": "Mộc Châu",
+      "synonyms": [
+        "Cao nguyên Mộc Châu",
+        "Thị trấn Mộc Châu",
+        "Đồi chè Mộc Châu",
+        "Rừng thông Mộc Châu",
+        "Thung lũng Mộc Châu",
+        "Moc Chau",
+        "moc chau",
+        "MOC CHAU",
+        "Tỉnh Sơn La",
+        "Sơn La",
+        "Bản Pa Phách",
+        "Pa Phách",
+        "Sữa bò Mộc Châu",
+        "Chè Shan tuyết",
+        "Chè trái tim",
+        "Bản Áng",
+        "Bản Ôn",
+        "MC"
+      ]
+    },
+    {
+      "value": "Mai Châu",
+      "synonyms": [
+        "Thung lũng Mai Châu",
+        "Bản Lác",
+        "Bản Poom Coong",
+        "Mai Chau",
+        "Làng văn hóa Mai Châu",
+        "mai chau",
+        "MAI CHAU",
+        "Tỉnh Hòa Bình",
+        "Hòa Bình",
+        "Bản Văn",
+        "Bản Cuống",
+        "Bản Bông",
+        "Văn hóa Thái",
+        "Người Thái",
+        "Homestay Thái",
+        "Rượu cần",
+        "Múa xòe",
+        "Chợ phiên Mai Châu",
+        "MC"
+      ]
+    }
+  ]
+}

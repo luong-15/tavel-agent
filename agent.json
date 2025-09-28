@@ -1,0 +1,30 @@
+{
+  "description": "A Dialogflow agent for a tourism chatbot focused on tours in Northwest Vietnam (Tay Bac).",
+  "language": "vi",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "Tay Bac Tour Bot",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "taybac-tour-bot",
+    "welcomeIntentSignInRequired": false,
+    "systemIntents": [],
+    "isStreamingEnabled": false
+  },
+  "defaultTimezone": "Asia/Ho_Chi_Minh",
+  "webhook": {
+    "url": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": []
+}

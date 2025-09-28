@@ -1,0 +1,90 @@
+{
+  "id": "a1b2c3d4-4b3a-11ee-be56-0242ac120002",
+  "name": "StartBooking",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "booking-1",
+      "data": [
+        {
+          "text": "đặt tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "booking-2",
+      "data": [
+        {
+          "text": "muốn đi tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "booking-3",
+      "data": [
+        {
+          "text": "đăng ký tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "booking-4",
+      "data": [
+        {
+          "text": "book tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "booking-5",
+      "data": [
+        {
+          "text": "tôi muốn đặt",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "booking_active",
+          "lifespan": 10
+        },
+        {
+          "name": "user_interested",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tuyệt vời! Tôi sẽ giúp bạn đặt tour du lịch Tây Bắc.\n\nHãy cho tôi biết:\n• Điểm đến bạn muốn đi (Sapa, Mộc Châu, Mai Châu)\n• Thời gian dự kiến (2-4 ngày)\n• Ngày khởi hành\n• Số lượng người tham gia\n\nHoặc bạn có thể chọn tour có sẵn:\n- Tour Sapa cổ điển\n- Tour Mộc Châu đồi chè\n- Tour văn hóa Mai Châu"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

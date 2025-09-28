@@ -1,0 +1,117 @@
+{
+  "id": "cf1e0d9c-4b3a-11ee-be56-0242ac120002",
+  "name": "AskTourItinerary",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "itinerary-1",
+      "data": [
+        {
+          "text": "lịch trình tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-2",
+      "data": [
+        {
+          "text": "đi đâu trong tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-3",
+      "data": [
+        {
+          "text": "tour ",
+          "userDefined": false
+        },
+        {
+          "text": "@TayBacDestination",
+          "alias": "destination",
+          "meta": "@TayBacDestination",
+          "userDefined": false
+        },
+        {
+          "text": " làm gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-4",
+      "data": [
+        {
+          "text": "chương trình tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-5",
+      "data": [
+        {
+          "text": "lịch trình như thế nào",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "tour_selected",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
+          "name": "destination",
+          "dataType": "@TayBacDestination",
+          "required": true,
+          "prompts": [
+            "Bạn muốn đi đến địa điểm nào ở Tây Bắc?"
+          ],
+          "isList": false
+        },
+        {
+          "id": "af9e8d7c-4b3a-11ee-be56-0242ac120002",
+          "name": "duration",
+          "dataType": "@TravelDuration",
+          "required": true,
+          "prompts": [
+            "Bạn dự định đi trong bao nhiêu ngày?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tôi sẽ chia sẻ lịch trình tour $destination trong $duration cho bạn nhé! 📅\n\n**Ngày 1: Khởi hành và làm quen**\n🚗 Khởi hành từ Hà Nội, di chuyển đến $destination bằng phương tiện bạn chọn.\n🏨 Nhận phòng khách sạn, nghỉ ngơi và thưởng thức bữa tối đặc sản.\n\n**Ngày 2: Khám phá và trải nghiệm**\n🏔️ Thăm quan các điểm nổi tiếng:\n• Sapa: Thác Bạc, Bản Cát Cát, chợ phiên Bắc Hà\n• Mộc Châu: Đồi chè xanh mướt, rừng thông thơ mộng\n• Mai Châu: Bản Lác, chèo thuyền, văn hóa Thái\n\n🍲 Trải nghiệm: Ăn uống đặc sản địa phương, tham gia hoạt động văn hóa, mua sắm đồ thổ cẩm.\n\n**Ngày 3 (nếu có):** Tiếp tục khám phá hoặc trở về Hà Nội.\n\n💰 **Giá tour:** Từ 2.500.000đ/người (đã bao gồm đầy đủ ăn ở, di chuyển).\n\nBạn thấy lịch trình này thế nào? Có muốn tôi điều chỉnh gì không? 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

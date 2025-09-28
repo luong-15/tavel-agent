@@ -1,0 +1,80 @@
+{
+  "id": "c3d4e5f6-4b3a-11ee-be56-0242ac120002",
+  "name": "Greeting",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "greet-1",
+      "data": [
+        {
+          "text": "xin chào",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "greet-2",
+      "data": [
+        {
+          "text": "hello",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "greet-3",
+      "data": [
+        {
+          "text": "chào bạn",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "greet-4",
+      "data": [
+        {
+          "text": "hi",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "greet-5",
+      "data": [
+        {
+          "text": "chào buổi sáng",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Xin chào! 👋 Chào mừng bạn đến với dịch vụ du lịch Tây Bắc! Tôi là trợ lý AI của chúng tôi, luôn sẵn sàng hỗ trợ bạn.\n\nTôi có thể giúp bạn:\n🎯 Tư vấn các tour hấp dẫn đến Sapa, Mộc Châu, Mai Châu\n📅 Xem chi tiết lịch trình và giá cả\n📝 Đặt tour nhanh chóng và dễ dàng\n❓ Trả lời mọi câu hỏi về du lịch Tây Bắc\n\nBạn đang quan tâm đến điều gì hôm nay? Hãy cho tôi biết nhé! 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

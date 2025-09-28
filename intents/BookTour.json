@@ -1,0 +1,83 @@
+{
+  "id": "22222222-3333-4444-5555-666666666666",
+  "name": "BookTour",
+  "auto": true,
+  "contexts": ["booking_active"],
+  "userSays": [
+    {
+      "id": "book-1",
+      "data": [
+        {
+          "text": "đặt tour ",
+          "userDefined": false
+        },
+        {
+          "text": "@TayBacTour",
+          "alias": "tour",
+          "meta": "@TayBacTour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-2",
+      "data": [
+        {
+          "text": "tôi muốn book ",
+          "userDefined": false
+        },
+        {
+          "text": "@TayBacDestination",
+          "alias": "destination",
+          "meta": "@TayBacDestination",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-3",
+      "data": [
+        {
+          "text": "đăng ký tour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [
+        {
+          "id": "bf0e9d8c-4b3a-11ee-be56-0242ac120002",
+          "name": "tour",
+          "required": false,
+          "dataType": "@TayBacTour"
+        },
+        {
+          "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
+          "name": "destination",
+          "required": false,
+          "dataType": "@TayBacDestination"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tuyệt vời! Tôi sẽ giúp bạn đặt tour $tour đến $destination. Vui lòng cung cấp thông tin: số lượng người, ngày khởi hành, phương tiện di chuyển. Sau đó tôi sẽ kiểm tra khả dụng và gửi xác nhận! 📅✈️"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

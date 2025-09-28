@@ -1,0 +1,24 @@
+{
+  "id": "98f65432-4b3a-11ee-be56-0242ac120002",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Xin lỗi, tôi chưa hiểu rõ ý bạn. 🤔\n\nTôi có thể giúp bạn:\n🎯 **Tư vấn tour:** Sapa, Mộc Châu, Mai Châu\n📅 **Xem lịch trình:** Chi tiết từng ngày\n💰 **Báo giá:** Theo phương tiện di chuyển\n📝 **Đặt tour:** Nhanh chóng và dễ dàng\n❓ **Hỏi đáp:** Thời tiết, đồ mang, thanh toán\n\nHãy thử hỏi theo cách khác hoặc chọn từ gợi ý trên. Hoặc gọi hotline 1900-xxxx để được hỗ trợ trực tiếp! 📞"
+        }
+      ],
+      "affectedContexts": []
+    }
+  ],
+  "priority": 500000,
+  "fallbackIntent": true,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "events": []
+}
