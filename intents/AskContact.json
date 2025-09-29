@@ -103,12 +103,29 @@
           "speech": "Chúng tôi rất vui được hỗ trợ bạn khám phá vẻ đẹp huyền bí của Tây Bắc! Đội ngũ tư vấn viên chuyên nghiệp luôn sẵn sàng 24/7 với thái độ thân thiện và tận tâm. Dưới đây là thông tin liên hệ chi tiết:\n\n**Hotline tư vấn và đặt tour:** 1900-xxxx (gọi miễn phí, hỗ trợ nhanh chóng từ đặt lịch đến giải đáp thắc mắc chuyên nghiệp)\n**Email:** info@taybactour.vn (trả lời trong vòng 24h, hỗ trợ chi tiết)\n**Website:** www.taybactour.vn (xem lịch trình, giá tour và đặt online tiện lợi)\n**Địa chỉ văn phòng:** 123 Đường ABC, Quận Hoàn Kiếm, Hà Nội (giờ làm việc: 8h-18h từ thứ 2 đến CN, đón tiếp tận tình)\n\n**Kênh mạng xã hội:**\n- Fanpage Facebook: fb.com/taybactour (cập nhật hình ảnh sống động, review thực tế chân thành)\n- Zalo OA: @taybactour (chat trực tiếp, gửi báo giá nhanh chóng)\n- Instagram: @taybactour.vn (hình ảnh đẹp mắt, video tour hấp dẫn)\n\nBạn có thể liên hệ qua bất kỳ kênh nào để nhận tư vấn miễn phí, ưu đãi đặc biệt và đặt tour dễ dàng. Bạn cần hỗ trợ về tour nào cụ thể hoặc có câu hỏi gì khác? 😊"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

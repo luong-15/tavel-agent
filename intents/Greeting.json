@@ -6,56 +6,31 @@
   "userSays": [
     {
       "id": "greet-1",
-      "data": [
-        {
-          "text": "xin chào",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "xin chào", "userDefined": false}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "greet-2",
-      "data": [
-        {
-          "text": "hello",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "hello", "userDefined": false}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "greet-3",
-      "data": [
-        {
-          "text": "chào bạn",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "chào bạn", "userDefined": false}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "greet-4",
-      "data": [
-        {
-          "text": "hi",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "hi", "userDefined": false}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "greet-5",
-      "data": [
-        {
-          "text": "chào buổi sáng",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "chào buổi sáng", "userDefined": false}],
       "isTemplate": false,
       "count": 0
     }
@@ -67,15 +42,37 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Xin chào! 👋 Chào mừng bạn đến với dịch vụ du lịch Tây Bắc chuyên nghiệp! Tôi là trợ lý AI của chúng tôi, luôn sẵn sàng hỗ trợ bạn mọi lúc với những trải nghiệm tuyệt vời.\n\nTôi có thể giúp bạn:\n🎯 Tư vấn các tour hấp dẫn đến Sapa (Fansipan hùng vĩ), Mộc Châu (đồi chè xanh mướt), Mai Châu (homestay ấm cúng)\n📅 Xem chi tiết lịch trình, giá cả và ưu đãi đặc biệt\n📝 Đặt tour nhanh chóng với nhiều phương tiện (máy bay tiện lợi, xe giường nằm thoải mái, tàu hỏa ngắm cảnh)\n❓ Trả lời mọi câu hỏi về thời tiết mát mẻ, ẩm thực đặc sắc, hoạt động thú vị, chính sách linh hoạt\n\nBạn đang quan tâm đến điều gì hôm nay? Hãy cho tôi biết để tôi tư vấn phù hợp nhất nhé! 😊"
+          "speech": "Xin chào! Chào mừng bạn đến với Tây Bắc Tour!\n\nTôi có thể giúp bạn:\n• Tư vấn tour Sapa, Mộc Châu, Mai Châu\n• Xem lịch trình và giá tour\n• Đặt tour nhanh chóng\n• Giải đáp thắc mắc\n\nBạn quan tâm điều gì?"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Xem tour",
+                  "payload": "XEM_TOUR"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Giá tour",
+                  "payload": "GIA_TOUR"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour",
+                  "payload": "DAT_TOUR"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ",
+                  "payload": "LIEN_HE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

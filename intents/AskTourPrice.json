@@ -86,7 +86,7 @@
       "id": "price-7",
       "data": [
         {
-          "text": "Có bao gồm hết chi phí chưa hay còn phụ thu gì?",
+          "text": "Có phụ thu gì không?",
           "userDefined": false
         }
       ],
@@ -97,7 +97,7 @@
       "id": "price-8",
       "data": [
         {
-          "text": "Có bao gồm vé máy bay/xe đưa đón không?",
+          "text": "Có vé máy bay/xe không?",
           "userDefined": false
         }
       ],
@@ -108,7 +108,7 @@
       "id": "price-9",
       "data": [
         {
-          "text": "Trẻ em, người lớn, người cao tuổi có giá khác nhau không?",
+          "text": "Giá trẻ em, người lớn khác nhau không?",
           "userDefined": false
         }
       ],
@@ -119,7 +119,7 @@
       "id": "price-10",
       "data": [
         {
-          "text": "Có khuyến mãi, combo hay ưu đãi nhóm không?",
+          "text": "Có khuyến mãi không?",
           "userDefined": false
         }
       ],
@@ -130,7 +130,7 @@
       "id": "price-11",
       "data": [
         {
-          "text": "Giá tour đã bao gồm ăn uống không hay tự lo?",
+          "text": "Giá bao gồm ăn uống không?",
           "userDefined": false
         }
       ],
@@ -141,7 +141,7 @@
       "id": "price-12",
       "data": [
         {
-          "text": "Trong combo giá bên mình có bao gồm vé các khu vui chơi, ngắm cảnh chưa?",
+          "text": "Combo bao gồm vé khu vui chơi không?",
           "userDefined": false
         }
       ],
@@ -152,7 +152,7 @@
       "id": "price-13",
       "data": [
         {
-          "text": "Có chi phí phát sinh thêm ở mỗi điểm không?",
+          "text": "Có chi phí phát sinh không?",
           "userDefined": false
         }
       ],
@@ -163,7 +163,7 @@
       "id": "price-14",
       "data": [
         {
-          "text": "Mình muốn book trọn gói thì giá như nào? Một người hết bao nhiêu tiền?",
+          "text": "Giá trọn gói bao nhiêu?",
           "userDefined": false
         }
       ],
@@ -174,7 +174,7 @@
       "id": "price-15",
       "data": [
         {
-          "text": "Mình đi theo đoàn đông thì được giảm bao nhiêu %?",
+          "text": "Đoàn đông giảm bao nhiêu?",
           "userDefined": false
         }
       ],
@@ -185,7 +185,7 @@
       "id": "price-16",
       "data": [
         {
-          "text": "Giá tour đã bao gồm VAT chưa?",
+          "text": "Giá bao gồm VAT không?",
           "userDefined": false
         }
       ],
@@ -196,7 +196,7 @@
       "id": "price-17",
       "data": [
         {
-          "text": "Tour có bao gồm bảo hiểm j không?",
+          "text": "Có bảo hiểm không?",
           "userDefined": false
         }
       ],
@@ -214,12 +214,29 @@
           "speech": "Giá tour Tây Bắc của chúng tôi rất cạnh tranh, minh bạch và giá trị cao so với dịch vụ 5 sao. Dưới đây là bảng giá chi tiết cho tour 3-4 ngày (có thể tùy chỉnh theo lịch trình):\n\n**Giá cơ bản (người lớn, đã bao gồm VAT):**\n- 🚗 Xe khách giường nằm cao cấp (5-6h từ Hà Nội): 2.500.000đ/người\n- 🚂 Tàu hỏa đêm Sapa (an toàn, ngắm cảnh): 3.200.000đ/người\n- ✈️ Máy bay khứ hồi (1h bay, tiện lợi): 4.500.000đ/người (vé nội địa, có thể thay đổi theo hãng bay)\n\n**Bao gồm đầy đủ:** Vé phương tiện khứ hồi, khách sạn/homestay 3-4 sao (phòng đôi), 3 bữa ăn/ngày (đặc sản địa phương), hướng dẫn viên chuyên nghiệp, bảo hiểm du lịch 20 triệu đồng, vé tham quan tất cả điểm (Fansipan, bản làng, chợ phiên), xe đưa đón nội địa, nước uống suốt hành trình.\n\n**Giá ưu đãi:**\n- Trẻ em (2-11 tuổi): Giảm 20-30% tùy độ tuổi (không kèm giường).\n- Người cao tuổi (trên 60): Giảm 10%.\n- Nhóm 5 người trở lên: Giảm thêm 10-15%.\n- Combo gia đình (2 người lớn + 1 trẻ em): Giảm 500.000đ.\n- Ưu đãi mùa thấp điểm (tháng 6-8, 12-2): Giảm 300.000đ/người.\n\n**Không phát sinh chi phí:** Tất cả đã bao gồm, không phụ thu ăn uống, vé tham quan hay phương tiện nội địa. Nếu tự túc phương tiện, giảm thêm 500.000-1.000.000đ.\n\nBạn muốn chọn phương tiện nào, số lượng người, hoặc lịch trình cụ thể để tôi báo giá chính xác và ưu đãi cá nhân hóa? 😊"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

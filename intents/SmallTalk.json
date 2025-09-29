@@ -70,12 +70,29 @@
           "speech": "Rất vui khi được trò chuyện với bạn! 😊 Tôi là trợ lý ảo chuyên tư vấn tour du lịch Tây Bắc, luôn sẵn sàng hỗ trợ mọi thông tin chi tiết về Sapa, Mộc Châu, Mai Châu. Bạn còn muốn hỏi gì thêm không? Ví dụ như lịch trình tour, giá cả, thời tiết, ẩm thực, chỗ ở, hoặc đặt tour ngay để nhận ưu đãi đặc biệt?"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

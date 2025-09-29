@@ -118,7 +118,18 @@
       "id": "info-40",
       "data": [
         {
-          "text": "Tour có hoạt động thiện nguyện cộng đồng không? Có chụp flycam cho đoàn không?",
+          "text": "Có thiện nguyện cộng đồng không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "info-40b",
+      "data": [
+        {
+          "text": "Có chụp flycam không?",
           "userDefined": false
         }
       ],
@@ -257,12 +268,29 @@
           "speech": "Tour du lịch Tây Bắc của chúng tôi là hành trình khám phá vùng núi Tây Bắc Việt Nam huyền bí, nơi hội tụ thiên nhiên hùng vĩ với những đỉnh núi cao chót vót, văn hóa dân tộc đa dạng và ẩm thực đặc trưng thơm ngon. Chúng tôi chuyên tổ chức tour đến các điểm nổi tiếng như Sapa (trekking Fansipan hùng vĩ, bản Cát Cát thơ mộng), Mộc Châu (đồi chè trái tim xanh mướt, hang Dơi kỳ thú), Mai Châu (thung lũng yên bình, homestay dân tộc Thái ấm cúng).\n\n**Điểm nổi bật và khác biệt:**\n- **Lịch trình linh hoạt:** Tùy chỉnh theo nhu cầu nhóm (gia đình vui vẻ, cặp đôi lãng mạn, đoàn doanh nghiệp năng động, khách lẻ tự do), có thể chọn lịch trình theo ý khách để phù hợp nhất.\n- **Đội ngũ chuyên nghiệp:** Hướng dẫn viên địa phương thân thiện biết ngoại ngữ (Anh, Trung, Hàn), y tá/bác sĩ đi kèm hỗ trợ sức khỏe 24/7, MC dẫn chương trình gala sôi động.\n- **Dịch vụ độc quyền:** Thiện nguyện cộng đồng ý nghĩa, chụp flycam góc nhìn tuyệt đẹp, photographer riêng ghi lại khoảnh khắc, xe VIP cao cấp thoải mái, quà lưu niệm tặng kèm.\n- **Trải nghiệm đặc biệt:** Ghép đoàn an toàn cho khách đi một mình, nhập tour giữa chừng nếu trễ lịch, hỗ trợ khách lẻ tận tình.\n- **Thanh toán tiện lợi:** Trả góp linh hoạt, chuyển khoản thẻ/ngân hàng an toàn, xuất hóa đơn VAT chính thức. Phụ phí mùa cao điểm (Lễ/Tết) rõ ràng, minh bạch, không ẩn phí.\n\nTour đảm bảo an toàn tuyệt đối, bảo hiểm đầy đủ (20 triệu đồng). Bạn quan tâm tour nào, đi với ai, hoặc có yêu cầu đặc biệt để tôi tư vấn chi tiết? 😊"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

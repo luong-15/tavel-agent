@@ -52,7 +52,7 @@
       "id": "food-5",
       "data": [
         {
-          "text": "Có ăn uống tại khách sạn không? Bữa sáng, trưa?",
+          "text": "Ăn sáng tại khách sạn không?",
           "userDefined": false
         }
       ],
@@ -107,7 +107,7 @@
       "id": "food-10",
       "data": [
         {
-          "text": "Chúng tôi không ăn theo tour thì có giảm giá không?",
+          "text": "Không ăn theo tour có giảm giá không?",
           "userDefined": false
         }
       ],
@@ -136,12 +136,29 @@
           "speech": "Ẩm thực là một phần không thể thiếu trong trải nghiệm tour Tây Bắc, giúp bạn khám phá văn hóa địa phương qua hương vị độc đáo và thơm ngon. Tour bao gồm 3 bữa ăn đầy đủ mỗi ngày (sáng buffet tại khách sạn/homestay, trưa và tối tại nhà hàng địa phương hoặc bản làng ấm cúng). Bao gồm nước uống và các món đặc sản tươi ngon, được chế biến từ nguyên liệu địa phương:\n\n- **Sapa:** Thắng cố (thịt bò nhúng dấm nóng hổi), lợn cắp nách nướng thơm lừng, xôi ngũ sắc rực rỡ, rau rừng luộc giòn tan, rượu táo mèo say men.\n- **Mộc Châu:** Bê chao (thịt bê muối nướng vàng), cá suối nướng tươi rói, mật ong rừng nguyên chất, chè xanh mát lành, mận/đào mùa vụ ngọt lịm.\n- **Mai Châu:** Cơm lam nếp nương thơm dẻo, gà đồi luộc mềm mại, rượu cần Thái ấm áp, rau luộc bản xanh tươi, cá suối hấp đậm đà.\n\nChúng tôi hỗ trợ tùy chỉnh menu cho chế độ ăn kiêng (chay thuần, mặn nhẹ, không gluten), BBQ gia đình vui vẻ, và hoạt động nấu ăn cùng dân tộc để bạn trải nghiệm văn hóa. Tour đi qua chợ phiên Bắc Hà để mua đặc sản giá gốc, tươi ngon. Nếu tự túc ăn uống, giảm 20-30% phí tour (không phụ thu thêm). Bạn có yêu cầu chế độ ăn đặc biệt, dị ứng thực phẩm, hoặc thích món nào để tôi tư vấn chi tiết? 😊"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }

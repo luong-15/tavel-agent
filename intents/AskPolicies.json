@@ -30,7 +30,7 @@
       "id": "policies-3",
       "data": [
         {
-          "text": "Tôi có việc đột xuất thì hủy tour trước 7 ngày có mất phí hay j không?",
+          "text": "Hủy tour trước 7 ngày mất phí không?",
           "userDefined": false
         }
       ],
@@ -63,7 +63,7 @@
       "id": "policies-6",
       "data": [
         {
-          "text": "Nếu không tham quan được đủ điểm đến như lịch trình vì lí do như thời tiết thì được hoàn tiền không?",
+          "text": "Hoàn tiền nếu không tham quan đủ do thời tiết?",
           "userDefined": false
         }
       ],
@@ -103,12 +103,29 @@
           "speech": "Chúng tôi cam kết mang đến trải nghiệm tour Tây Bắc an toàn, chất lượng và minh bạch tuyệt đối. Dưới đây là chi tiết các chính sách quan trọng để bạn yên tâm:\n\n**Giấy tờ cần mang theo:** CMND/CCCD bản gốc, hộ chiếu (nếu đi qua biên giới), vé tour điện tử (gửi qua email/Zalo), giấy bảo hiểm du lịch. Trẻ em dưới 14 tuổi cần giấy khai sinh hoặc giấy tờ tùy thân. Vui lòng kiểm tra kỹ trước khi khởi hành, và mang theo bản sao để dự phòng.\n\n**Bảo hiểm du lịch:** Bao gồm miễn phí bảo hiểm 20 triệu đồng/người (bao phủ tai nạn, bệnh tật, hỗ trợ y tế, hành lý). Khuyến nghị mua thêm bảo hiểm nâng cao (50-100 triệu) cho an tâm tuyệt đối, đặc biệt khi trekking hoặc hoạt động mạo hiểm.\n\n**Chính sách hủy tour:** Hủy trước 7 ngày: mất 30% cọc. Hủy 3-7 ngày: mất 50% tổng phí. Hủy trong 3 ngày hoặc không đến: không hoàn tiền. Hoàn tiền trong 7-10 ngày làm việc qua chuyển khoản.\n\n**Trễ giờ:** Xe đón đợi tối đa 30 phút tại điểm hẹn. Sau đó khởi hành đúng lịch, không hoàn tiền hoặc bù. Vui lòng thông báo trước nếu trễ để chúng tôi hỗ trợ điều chỉnh.\n\n**Cam kết chất lượng:** An toàn tuyệt đối (xe chất lượng cao, hướng dẫn viên chuyên nghiệp có chứng chỉ), đúng lịch trình, dịch vụ 5 sao. Nếu không hài lòng, hỗ trợ giải quyết ngay lập tức và bồi thường nếu lỗi từ chúng tôi (tối đa 50% phí tour).\n\n**Thời tiết và thay đổi lịch trình:** Có thể điều chỉnh để đảm bảo an toàn (ví dụ: trekking thay bằng tham quan bản làng hoặc chợ phiên). Bù bằng điểm tham quan khác hoặc hoàn tiền phần bị ảnh hưởng (tối đa 20% phí tour).\n\n**Hợp đồng:** Ký hợp đồng văn bản rõ ràng quyền lợi, nghĩa vụ khi đặt tour. Gửi bản mềm qua email để bạn xem trước, hỗ trợ ký điện tử nếu cần.\n\nBạn có thắc mắc cụ thể nào về chính sách hoặc cần tư vấn thêm để tôi giải đáp chi tiết? 😊"
         },
         {
-          "type": 2,
-          "replies": [
-            "Đặt tour ngay",
-            "Hỏi về chính sách",
-            "Liên hệ hotline"
-          ]
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Hỏi về chính sách",
+                  "payload": "HOI_CHINH_SACH"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ]
     }
