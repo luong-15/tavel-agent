@@ -67,7 +67,15 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Tôi luôn khỏe mạnh và sẵn sàng hỗ trợ bạn! 😊 Có gì tôi có thể giúp không?"
+          "speech": "Rất vui khi được trò chuyện với bạn! 😊 Tôi là trợ lý ảo chuyên tư vấn tour du lịch Tây Bắc, luôn sẵn sàng hỗ trợ mọi thông tin chi tiết về Sapa, Mộc Châu, Mai Châu. Bạn còn muốn hỏi gì thêm không? Ví dụ như lịch trình tour, giá cả, thời tiết, ẩm thực, chỗ ở, hoặc đặt tour ngay để nhận ưu đãi đặc biệt?"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }

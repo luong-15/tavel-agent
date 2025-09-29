@@ -68,49 +68,173 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "itinerary-6",
+      "data": [
+        {
+          "text": "Tour kéo dài trong bao nhiêu ngày?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-7",
+      "data": [
+        {
+          "text": "Thời gian xuất phát khi nào và sẽ đi những địa điểm nào?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-8",
+      "data": [
+        {
+          "text": "Nếu có trục trặc về thời tiết thì lịch trình có thay đổi được k?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-9",
+      "data": [
+        {
+          "text": "Tôi muốn đổi lịch trình vì bận đột xuất được k?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-10",
+      "data": [
+        {
+          "text": "Khoảng tầm mấy h thì lịch trình tham quan kết thúc?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-11",
+      "data": [
+        {
+          "text": "Có thời gian để được tự do đi chơi không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-12",
+      "data": [
+        {
+          "text": "Tour có chương trình buổi tối không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-13",
+      "data": [
+        {
+          "text": "Mỗi địa điểm mình sẽ dừng lại khoảng bao lâu?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-14",
+      "data": [
+        {
+          "text": "Tour có kết hợp nghỉ dưỡng với tham quan hay k?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-15",
+      "data": [
+        {
+          "text": "Có những địa điểm tham quan cụ thể nào?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-16",
+      "data": [
+        {
+          "text": "Chúng tôi không muốn đến địa điểm này thì có thể đổi qua địa điểm khác được k?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-17",
+      "data": [
+        {
+          "text": "Có option nào khác không? Ngắn/dài ngày hơn?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-18",
+      "data": [
+        {
+          "text": "Chúng tôi muốn tham gia trải nghiệm các hoạt đông của người dân tộc thì sẽ đi địa điểm nào?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "tour_selected",
-          "lifespan": 5
-        }
-      ],
-      "parameters": [
-        {
-          "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
-          "name": "destination",
-          "dataType": "@TayBacDestination",
-          "required": true,
-          "prompts": [
-            "Bạn muốn đi đến địa điểm nào ở Tây Bắc?"
-          ],
-          "isList": false
-        },
-        {
-          "id": "af9e8d7c-4b3a-11ee-be56-0242ac120002",
-          "name": "duration",
-          "dataType": "@TravelDuration",
-          "required": true,
-          "prompts": [
-            "Bạn dự định đi trong bao nhiêu ngày?"
-          ],
-          "isList": false
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": "Tôi sẽ chia sẻ lịch trình tour $destination trong $duration cho bạn nhé! 📅\n\n**Ngày 1: Khởi hành và làm quen**\n🚗 Khởi hành từ Hà Nội, di chuyển đến $destination bằng phương tiện bạn chọn.\n🏨 Nhận phòng khách sạn, nghỉ ngơi và thưởng thức bữa tối đặc sản.\n\n**Ngày 2: Khám phá và trải nghiệm**\n🏔️ Thăm quan các điểm nổi tiếng:\n• Sapa: Thác Bạc, Bản Cát Cát, chợ phiên Bắc Hà\n• Mộc Châu: Đồi chè xanh mướt, rừng thông thơ mộng\n• Mai Châu: Bản Lác, chèo thuyền, văn hóa Thái\n\n🍲 Trải nghiệm: Ăn uống đặc sản địa phương, tham gia hoạt động văn hóa, mua sắm đồ thổ cẩm.\n\n**Ngày 3 (nếu có):** Tiếp tục khám phá hoặc trở về Hà Nội.\n\n💰 **Giá tour:** Từ 2.500.000đ/người (đã bao gồm đầy đủ ăn ở, di chuyển).\n\nBạn thấy lịch trình này thế nào? Có muốn tôi điều chỉnh gì không? 😊"
+          "speech": "Lịch trình tour Tây Bắc được thiết kế linh hoạt, kết hợp khám phá thiên nhiên hùng vĩ, văn hóa dân tộc và nghỉ dưỡng thư giãn. Chúng tôi có thể điều chỉnh theo thời tiết hoặc yêu cầu cá nhân để đảm bảo trải nghiệm tốt nhất. Dưới đây là lịch trình mẫu chi tiết cho các điểm đến phổ biến (có thể tùy chỉnh số ngày, hoạt động):\n\n**Sapa (3 ngày 2 đêm, lý tưởng cho trekking và văn hóa):**\n- **Ngày 1:** Khởi hành từ Hà Nội (xe giường nằm 22h đêm hoặc máy bay sáng), đến Sapa trưa/chiều, nhận phòng khách sạn 3-4 sao trung tâm, dạo chợ đêm Sapa thưởng thức thắng cố, thịt lợn cắp nách, rượu táo mèo trong không khí sôi động.\n- **Ngày 2:** Sáng trekking Fansipan bằng cáp treo (3.143m, ngọn núi cao nhất Đông Dương), chiều thăm bản Cát Cát và Tả Van (trải nghiệm văn hóa H'Mông, mua thổ cẩm thủ công), tối múa xòe và lửa trại với dân tộc địa phương.\n- **Ngày 3:** Tham quan Hàm Rồng (sáng sớm ngắm sương mù huyền ảo), chợ phiên Bắc Hà (mua sắm đặc sản tươi ngon), về Hà Nội chiều tối.\n\n**Mộc Châu (2 ngày 1 đêm, phù hợp nghỉ dưỡng và thưởng thức):**\n- **Ngày 1:** Khởi hành sáng từ Hà Nội (xe 5-6h), thăm đồi chè trái tim (check-in nổi tiếng với view xanh mướt), hang Dơi, bản Áng (dân tộc Thái, thưởng thức mận/đào mùa vụ, rượu cần ấm áp).\n- **Ngày 2:** Thác Dải Yếm (bơi lội, picnic thư giãn), nông trường chăn nuôi (thưởng thức sữa tươi nguyên chất, mật ong rừng), về Hà Nội chiều tối.\n\n**Mai Châu (2 ngày 1 đêm, homestay và trekking nhẹ):**\n- **Ngày 1:** Đến thung lũng Mai Châu (xe 4-5h), homestay dân tộc Thái ấm cúng, đạp xe khám phá bản làng yên bình, múa xòe truyền thống, uống rượu cần và thưởng thức cá suối nướng.\n- **Ngày 2:** Trekking nhẹ hang Chiều và Pù Luông (khám phá rừng nguyên sinh xanh tươi), về Hà Nội chiều.\n\n**Tổng quát:** Bao gồm hướng dẫn viên chuyên nghiệp, 3 bữa ăn/ngày (đặc sản địa phương), phương tiện di chuyển nội địa, vé tham quan. Có thời gian tự do mua sắm/relax. Tour linh hoạt: Có thể thay đổi lịch trình do thời tiết (bù bằng điểm khác), hủy/đổi trước 7 ngày. Có option tour ngắn (1 ngày) hoặc dài (5-7 ngày) kết hợp nhiều điểm. Bạn quan tâm lịch trình nào, số ngày, hoặc yêu cầu đặc biệt để tôi tư vấn chi tiết? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

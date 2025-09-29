@@ -3,22 +3,112 @@
   "name": "AskActivities",
   "auto": true,
   "contexts": [],
+  "userSays": [
+    {
+      "id": "activities-1",
+      "data": [
+        {
+          "text": "Tour có hoạt động team Building không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-2",
+      "data": [
+        {
+          "text": "Có được check-in các địa điểm hot trend không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-3",
+      "data": [
+        {
+          "text": "Có hoạt động mạo hiểm không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-4",
+      "data": [
+        {
+          "text": "Có được trải nghiệm văn hóa địa phương ở đó không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-5",
+      "data": [
+        {
+          "text": "Có lịch trình mua sắm không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-6",
+      "data": [
+        {
+          "text": "Có làng nghề truyền thống hay chợ phiên, chợ đêm không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-7",
+      "data": [
+        {
+          "text": "Buổi tối có hoạt động gì?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-8",
+      "data": [
+        {
+          "text": "Có đốt lửa trại không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
   "responses": [
     {
       "resetContexts": false,
-      "parameters": [
-        {
-          "id": "activity-dest-id",
-          "name": "destination",
-          "dataType": "@TayBacDestination",
-          "required": false,
-          "prompts": ["Bạn muốn biết hoạt động ở đâu?"]
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": "Tây Bắc có vô vàn hoạt động thú vị! 🎉\n\n**🏔️ Sapa:** Trekking Fansipan, thăm bản Cát Cát, chợ phiên, thưởng thức văn hóa H'Mông\n\n**🌄 Mộc Châu:** Tham quan đồi chè, rừng thông, bản làng Thái, thưởng thức sữa bò tươi\n\n**🏞️ Mai Châu:** Chèo thuyền trên bản Lác, trải nghiệm homestay Thái, thưởng thức rượu cần, múa xòe\n\n**Hoạt động chung:** Ăn đặc sản, mua đồ thổ cẩm, tắm suối khoáng, tham quan di tích lịch sử.\n\nBạn quan tâm đến hoạt động nào nhất?"
+          "speech": "Tour Tây Bắc mang đến đa dạng hoạt động thú vị, từ mạo hiểm đến văn hóa và nghỉ dưỡng, phù hợp mọi đối tượng. Dưới đây là chi tiết các hoạt động nổi bật:\n\n**Team building:** Trekking nhóm trên Fansipan hùng vĩ, trò chơi văn hóa dân tộc vui nhộn, lửa trại gắn kết ấm áp – lý tưởng cho doanh nghiệp và nhóm bạn, giúp tăng cường tinh thần đồng đội.\n\n**Check-in điểm hot trend:** Chinh phục đỉnh Fansipan, bản Cát Cát thơ mộng, đồi chè trái tim Mộc Châu xanh mướt, cầu treo Mai Châu lãng mạn – có hướng dẫn viên chụp ảnh chuyên nghiệp và flycam để có những bức ảnh đẹp tuyệt vời.\n\n**Hoạt động mạo hiểm:** Trekking Fansipan (3.143m, ngọn núi cao nhất Đông Dương), zipline trên thung lũng Mai Châu, chèo thuyền kayak tại hồ Pá Khoang Mộc Châu – đảm bảo an toàn với trang bị đầy đủ và hướng dẫn viên chuyên nghiệp.\n\n**Trải nghiệm văn hóa địa phương:** Thăm bản làng dân tộc (H'Mông, Thái), múa xòe truyền thống, uống rượu cần, học dệt thổ cẩm, homestay chân thực – kết nối sâu sắc với cộng đồng, hiểu văn hóa bản địa.\n\n**Mua sắm và làng nghề:** Thổ cẩm Sapa, mật ong rừng Mộc Châu, rượu cần Mai Châu – ghé chợ phiên Bắc Hà, chợ đêm Sapa, làng nghề dệt vải truyền thống để mua quà lưu niệm.\n\n**Buổi tối:** Lửa trại ấm cúng, hát dân ca, múa xòe, BBQ gia đình, kể chuyện dân gian – tại homestay hoặc resort, tạo không khí vui vẻ và gần gũi.\n\nBạn quan tâm hoạt động nào nhất, đi nhóm bao nhiêu người, hoặc có yêu cầu đặc biệt để tôi tư vấn tour phù hợp? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }

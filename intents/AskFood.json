@@ -1,0 +1,154 @@
+{
+  "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+  "name": "AskFood",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "food-1",
+      "data": [
+        {
+          "text": "Tour bao gồm mấy bữa ăn 1 ngày?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-2",
+      "data": [
+        {
+          "text": "Tour đã bao gồm chi phí ăn uống chưa?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-3",
+      "data": [
+        {
+          "text": "Có được thưởng thức đặc sản ở đó không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-4",
+      "data": [
+        {
+          "text": "Giá ăn của từng người như nào?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-5",
+      "data": [
+        {
+          "text": "Có ăn uống tại khách sạn không? Bữa sáng, trưa?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-6",
+      "data": [
+        {
+          "text": "Có BBQ gia đình không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-7",
+      "data": [
+        {
+          "text": "Ăn uống tự chọn hay có theo set?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-8",
+      "data": [
+        {
+          "text": "Tour có đi qua những địa điểm bán đồ đặc sản địa phương không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-9",
+      "data": [
+        {
+          "text": "Có những đặc sản như thế nào?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-10",
+      "data": [
+        {
+          "text": "Chúng tôi không ăn theo tour thì có giảm giá không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-11",
+      "data": [
+        {
+          "text": "Tour có hỗ trợ khám phá ẩm thực Tây Bắc không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ẩm thực là một phần không thể thiếu trong trải nghiệm tour Tây Bắc, giúp bạn khám phá văn hóa địa phương qua hương vị độc đáo và thơm ngon. Tour bao gồm 3 bữa ăn đầy đủ mỗi ngày (sáng buffet tại khách sạn/homestay, trưa và tối tại nhà hàng địa phương hoặc bản làng ấm cúng). Bao gồm nước uống và các món đặc sản tươi ngon, được chế biến từ nguyên liệu địa phương:\n\n- **Sapa:** Thắng cố (thịt bò nhúng dấm nóng hổi), lợn cắp nách nướng thơm lừng, xôi ngũ sắc rực rỡ, rau rừng luộc giòn tan, rượu táo mèo say men.\n- **Mộc Châu:** Bê chao (thịt bê muối nướng vàng), cá suối nướng tươi rói, mật ong rừng nguyên chất, chè xanh mát lành, mận/đào mùa vụ ngọt lịm.\n- **Mai Châu:** Cơm lam nếp nương thơm dẻo, gà đồi luộc mềm mại, rượu cần Thái ấm áp, rau luộc bản xanh tươi, cá suối hấp đậm đà.\n\nChúng tôi hỗ trợ tùy chỉnh menu cho chế độ ăn kiêng (chay thuần, mặn nhẹ, không gluten), BBQ gia đình vui vẻ, và hoạt động nấu ăn cùng dân tộc để bạn trải nghiệm văn hóa. Tour đi qua chợ phiên Bắc Hà để mua đặc sản giá gốc, tươi ngon. Nếu tự túc ăn uống, giảm 20-30% phí tour (không phụ thu thêm). Bạn có yêu cầu chế độ ăn đặc biệt, dị ứng thực phẩm, hoặc thích món nào để tôi tư vấn chi tiết? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

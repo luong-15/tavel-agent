@@ -58,28 +58,68 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "faq-6",
+      "data": [
+        {
+          "text": "Có hỗ trợ 24/7 khi đang đi tour không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-7",
+      "data": [
+        {
+          "text": "Có hotline khẩn cấp cho khách không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-8",
+      "data": [
+        {
+          "text": "Nếu bị mất đồ thì công ty có hỗ trợ không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faq-9",
+      "data": [
+        {
+          "text": "Có gợi ý trang phục/đồ dùng cần chuẩn bị không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
-      "parameters": [
-        {
-          "id": "faq-topic-id",
-          "name": "topic",
-          "dataType": "@sys.any",
-          "required": true,
-          "isList": false,
-          "prompts": [
-            "Bạn cần hỗ trợ về vấn đề gì?"
-          ]
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": "Thông tin về $topic:\n\n🌤️ **Thời tiết Tây Bắc:** Mát mẻ quanh năm (15-25°C), tốt nhất từ tháng 9-11. Tháng 12-2 có thể lạnh về đêm.\n\n📝 **Đồ cần mang:** Quần áo ấm, áo mưa, giày đi bộ, thuốc cá nhân, kem chống nắng, nón rộng vành.\n\n💳 **Thanh toán:** Tiền mặt, chuyển khoản ngân hàng, thẻ tín dụng (Visa/MasterCard), ví điện tử (Momo/ZaloPay).\n\n🏨 **Khách sạn:** 3-4 sao, homestay truyền thống tùy tour.\n\n🍲 **Ẩm thực:** Thịt lợn bản, cá suối, thắng cố, rượu cần, rau rừng.\n\n📞 **Liên hệ:** Hotline 1900-xxxx hoặc chat trực tiếp.\n\nBạn cần hỗ trợ gì thêm không?"
+          "speech": "Dưới đây là câu trả lời chi tiết cho các câu hỏi thường gặp về tour du lịch Tây Bắc của chúng tôi:\n\n**Thời tiết:** Tây Bắc mát mẻ quanh năm (15-25°C), lý tưởng nhất từ tháng 9-11 (thu hoạch lúa vàng óng, hoa mận nở trắng xóa). Mùa đông (12-2) lạnh hơn (5-15°C), mang áo ấm, găng tay để tận hưởng sương giá huyền ảo. Mùa mưa (5-8) ẩm ướt, có thể ảnh hưởng trekking – chúng tôi điều chỉnh lịch trình linh hoạt để đảm bảo an toàn và thú vị.\n\n**Đồ dùng cần chuẩn bị:** Quần áo ấm (áo khoác, quần dài), giày trekking chống nước, áo mưa, thuốc men cá nhân (sốt, đau bụng), kem chống nắng, mũ nón, bình nước tái sử dụng, máy ảnh để lưu giữ khoảnh khắc. Cho trẻ em: sữa, đồ chơi. Chúng tôi có thể tư vấn chi tiết dựa trên tour bạn chọn để chuyến đi thoải mái nhất.\n\n**Thanh toán:** Đặt cọc 30% qua chuyển khoản ngân hàng (Vietcombank/Techcombank) hoặc ví điện tử (Momo/ZaloPay) an toàn, nhanh chóng. Thanh toán số còn lại trước 7 ngày khởi hành. Hoàn tiền trong 7-10 ngày nếu hủy đúng chính sách. Không thu phí ẩn, minh bạch 100%.\n\n**Ẩm thực:** Đặc sản thắng cố (thịt bò nhúng dấm nóng hổi), bê chao (thịt bê muối nướng thơm lừng), rượu cần say men, cá suối nướng tươi rói, rau rừng luộc giòn tan, cơm lam nếp nương. Tour bao gồm 3 bữa ăn/ngày với món ngon địa phương, có option ăn chay để phù hợp mọi khẩu vị.\n\n**Lưu trú:** Khách sạn 3-4 sao tiện nghi (wifi, nóng lạnh đầy đủ) hoặc homestay bản làng gần gũi văn hóa (phòng sạch sẽ, giường ấm áp, nghe tiếng suối róc rách). Đảm bảo an toàn, vệ sinh và thoải mái như ở nhà.\n\n**Hỗ trợ khẩn cấp:** Hotline 24/7: 1900-xxxx (tư vấn viên chuyên nghiệp luôn sẵn sàng). Nếu mất đồ, chúng tôi hỗ trợ tìm kiếm ngay lập tức và bảo hiểm bồi thường theo hợp đồng (tối đa 20 triệu đồng) để bạn yên tâm tận hưởng.\n\nBạn có câu hỏi cụ thể nào khác hoặc cần tư vấn tour để tôi giải đáp chi tiết? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }

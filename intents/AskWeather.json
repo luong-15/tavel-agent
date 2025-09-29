@@ -75,7 +75,15 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Thời tiết Tây Bắc rất dễ chịu quanh năm! 🌤️\n\n**Mùa xuân (3-5):** Ấm áp, hoa đào nở, lý tưởng cho trekking\n**Mùa hè (6-8):** Nóng ẩm, nhiều mưa, thác nước đẹp\n**Mùa thu (9-11):** **Tốt nhất** - mát mẻ, ít mưa, cảnh quan tuyệt đẹp\n**Mùa đông (12-2):** Lạnh về đêm, sương mù, tuyết ở Sapa\n\nNhiệt độ trung bình: 15-25°C. Mang áo ấm nếu đi mùa đông!\n\nBạn muốn đi tour mùa nào?"
+          "speech": "Thời tiết Tây Bắc thuộc khí hậu ôn đới, thay đổi rõ rệt theo mùa và địa điểm, ảnh hưởng trực tiếp đến hoạt động trekking và trải nghiệm, tạo nên những khoảnh khắc độc đáo. Dưới đây là thông tin chi tiết cho các điểm du lịch chính:\n\n**Sapa:** Mát mẻ quanh năm (10-25°C), sương mù thường xuyên tạo nên vẻ huyền ảo. Mùa thu (tháng 9-11) lý tưởng nhất cho trekking (15-20°C, nắng vàng ấm áp, ít mưa, hoa mận nở trắng xóa). Mùa đông (12-2) lạnh buốt 5-15°C, có tuyết rơi nhẹ – tuyệt vời cho ngắm cảnh thơ mộng và homestay ấm cúng. Mùa hè (6-8) mưa nhiều, nhiệt độ 20-25°C, dễ trơn trượt nhưng cảnh núi rừng xanh tươi.\n\n**Mộc Châu:** Ấm áp hơn Sapa (15-28°C), khí hậu dễ chịu. Tháng 11-4 hoa mận, đào nở rộ rực rỡ, thời tiết dễ chịu lý tưởng. Tháng 12-2 se lạnh nhẹ, phù hợp thưởng thức đặc sản nóng hổi. Mùa hè mưa dông, nhiệt độ cao 25-28°C, nhưng vẫn mát mẻ với đồi chè xanh mướt.\n\n**Mai Châu:** Tương tự Mộc Châu, 18-30°C, khí hậu ôn hòa. Mùa thu/xuân (9-4) tốt nhất cho homestay và khám phá thung lũng yên bình (ít mưa, cảnh đẹp tuyệt mỹ). Mùa hè ẩm ướt, mùa đông lạnh nhưng lãng mạn.\n\n**Lời khuyên:** Mang áo ấm, áo mưa, giày chống nước bất kể mùa để chuẩn bị tốt nhất. Mùa tốt nhất đi tour: 9-11 (mát mẻ, cảnh quan tuyệt đẹp, ít mưa, trải nghiệm đỉnh cao). Bạn dự định đi tháng nào hoặc địa điểm cụ thể để tôi tư vấn trang phục, hoạt động phù hợp và tour? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }

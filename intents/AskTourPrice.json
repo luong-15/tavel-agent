@@ -70,35 +70,162 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "price-6",
+      "data": [
+        {
+          "text": "Giá tour bao nhiêu?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-7",
+      "data": [
+        {
+          "text": "Có bao gồm hết chi phí chưa hay còn phụ thu gì?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-8",
+      "data": [
+        {
+          "text": "Có bao gồm vé máy bay/xe đưa đón không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-9",
+      "data": [
+        {
+          "text": "Trẻ em, người lớn, người cao tuổi có giá khác nhau không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-10",
+      "data": [
+        {
+          "text": "Có khuyến mãi, combo hay ưu đãi nhóm không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-11",
+      "data": [
+        {
+          "text": "Giá tour đã bao gồm ăn uống không hay tự lo?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-12",
+      "data": [
+        {
+          "text": "Trong combo giá bên mình có bao gồm vé các khu vui chơi, ngắm cảnh chưa?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-13",
+      "data": [
+        {
+          "text": "Có chi phí phát sinh thêm ở mỗi điểm không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-14",
+      "data": [
+        {
+          "text": "Mình muốn book trọn gói thì giá như nào? Một người hết bao nhiêu tiền?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-15",
+      "data": [
+        {
+          "text": "Mình đi theo đoàn đông thì được giảm bao nhiêu %?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-16",
+      "data": [
+        {
+          "text": "Giá tour đã bao gồm VAT chưa?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-17",
+      "data": [
+        {
+          "text": "Tour có bao gồm bảo hiểm j không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
     {
       "resetContexts": false,
-      "parameters": [
-        {
-          "id": "bf0e9d8c-4b3a-11ee-be56-0242ac120002",
-          "name": "TayBacTour",
-          "required": false,
-          "dataType": "@TayBacTour"
-        },
-        {
-          "id": "9f8e7d6c-4b3a-11ee-be56-0242ac120002",
-          "name": "TransportType",
-          "required": false,
-          "dataType": "@TransportType"
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": "Tôi sẽ tư vấn giá tour cho bạn nhé! 💰\n\nTour $TayBacTour có các mức giá như sau:\n\n🚗 **Xe khách:** 2.500.000đ/người (tiết kiệm nhất)\n🚂 **Tàu hỏa:** 3.200.000đ/người (kinh nghiệm độc đáo)\n✈️ **Máy bay:** 4.500.000đ/người (nhanh chóng và thoải mái)\n\n💡 **Giá đã bao gồm:** Vé di chuyển khứ hồi, khách sạn 3 sao, ăn uống 3 bữa/ngày, hướng dẫn viên chuyên nghiệp, bảo hiểm du lịch.\n\n🎁 **Ưu đãi đặc biệt:** Giảm 10% cho nhóm từ 5 người trở lên! Còn nhiều khuyến mãi khác nữa.\n\nBạn muốn chọn phương tiện nào? Hay tôi có thể tư vấn thêm về lịch trình không? 😊"
+          "speech": "Giá tour Tây Bắc của chúng tôi rất cạnh tranh, minh bạch và giá trị cao so với dịch vụ 5 sao. Dưới đây là bảng giá chi tiết cho tour 3-4 ngày (có thể tùy chỉnh theo lịch trình):\n\n**Giá cơ bản (người lớn, đã bao gồm VAT):**\n- 🚗 Xe khách giường nằm cao cấp (5-6h từ Hà Nội): 2.500.000đ/người\n- 🚂 Tàu hỏa đêm Sapa (an toàn, ngắm cảnh): 3.200.000đ/người\n- ✈️ Máy bay khứ hồi (1h bay, tiện lợi): 4.500.000đ/người (vé nội địa, có thể thay đổi theo hãng bay)\n\n**Bao gồm đầy đủ:** Vé phương tiện khứ hồi, khách sạn/homestay 3-4 sao (phòng đôi), 3 bữa ăn/ngày (đặc sản địa phương), hướng dẫn viên chuyên nghiệp, bảo hiểm du lịch 20 triệu đồng, vé tham quan tất cả điểm (Fansipan, bản làng, chợ phiên), xe đưa đón nội địa, nước uống suốt hành trình.\n\n**Giá ưu đãi:**\n- Trẻ em (2-11 tuổi): Giảm 20-30% tùy độ tuổi (không kèm giường).\n- Người cao tuổi (trên 60): Giảm 10%.\n- Nhóm 5 người trở lên: Giảm thêm 10-15%.\n- Combo gia đình (2 người lớn + 1 trẻ em): Giảm 500.000đ.\n- Ưu đãi mùa thấp điểm (tháng 6-8, 12-2): Giảm 300.000đ/người.\n\n**Không phát sinh chi phí:** Tất cả đã bao gồm, không phụ thu ăn uống, vé tham quan hay phương tiện nội địa. Nếu tự túc phương tiện, giảm thêm 500.000-1.000.000đ.\n\nBạn muốn chọn phương tiện nào, số lượng người, hoặc lịch trình cụ thể để tôi báo giá chính xác và ưu đãi cá nhân hóa? 😊"
+        },
+        {
+          "type": 2,
+          "replies": [
+            "Đặt tour ngay",
+            "Hỏi về chính sách",
+            "Liên hệ hotline"
+          ]
         }
       ]
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []
