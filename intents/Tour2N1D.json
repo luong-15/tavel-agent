@@ -1,0 +1,135 @@
+{
+  "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "name": "Tour2N1D",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "2n1d-1",
+      "data": [
+        {
+          "text": "Tour 2 ngày 1 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-2",
+      "data": [
+        {
+          "text": "Gói tour 2N1Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-3",
+      "data": [
+        {
+          "text": "Thông tin tour 2N1Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-4",
+      "data": [
+        {
+          "text": "Tôi muốn đi tour 2 ngày 1 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-5",
+      "data": [
+        {
+          "text": "Tour ngắn 2N1Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-6",
+      "data": [
+        {
+          "text": "Giới thiệu tour 2 ngày 1 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-7",
+      "data": [
+        {
+          "text": "Tour 2N1Đ có gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-8",
+      "data": [
+        {
+          "text": "Tôi muốn tham khảo tour 2 ngày 1 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-9",
+      "data": [
+        {
+          "text": "Tôi muốn tìm hiểu tour 2N1Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2n1d-10",
+      "data": [
+        {
+          "text": "Tôi muốn biết về tour 2 ngày 1 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "🌙 Gói tour 2 ngày 1 đêm (2N1Đ):\n- Tour Mộc Châu 2N1Đ – T7 hàng tuần – 1.390.000đ/khách\n- Tour Mai Châu 2N1Đ – T7 hàng tuần – 1.490.000đ/khách\n- Tour Mù Cang Chải 2N1Đ – T7 hàng tuần – 1.590.000đ/khách\n- Tour Ninh Bình 2N1Đ – Hàng ngày – 1.500.000đ/khách\n\n💡 Liên hệ để được tư vấn chi tiết và đặt tour ngay hôm nay! 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

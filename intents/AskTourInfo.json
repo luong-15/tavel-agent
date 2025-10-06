@@ -1,0 +1,80 @@
+{
+  "id": "12345678-1234-1234-1234-123456789abc",
+  "name": "AskTourInfo",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "accomm-1",
+      "data": [{"text": "Có ở gần địa điểm du lịch không hay xa?"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "activities-1",
+      "data": [{"text": "Tour có hoạt động team Building không?"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "food-1",
+      "data": [{"text": "Tour bao gồm mấy bữa ăn 1 ngày?"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "itinerary-1",
+      "data": [{"text": "lịch trình tour"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-1",
+      "data": [{"text": "giá tour"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "transport-1",
+      "data": [{"text": "Tour gồm những phương tiện di chuyển nào?"}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "weather-1",
+      "data": [{"text": "thời tiết"}],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "📋 Chúng tôi cung cấp các thông tin chi tiết về tour Tây Bắc bao gồm:\n\n🏨 - Lưu trú: Khách sạn, homestay, villa với tiện nghi hiện đại và vị trí thuận tiện.\n🎉 - Hoạt động: Team building, trekking, trải nghiệm văn hóa dân tộc, check-in điểm hot.\n🍽️ - Ẩm thực: 3 bữa ăn đặc sản địa phương, BBQ gia đình, hỗ trợ chế độ ăn đặc biệt.\n🗓️ - Lịch trình: Linh hoạt, kết hợp khám phá thiên nhiên, văn hóa, nghỉ dưỡng, có thể điều chỉnh theo yêu cầu.\n💰 - Giá tour: Minh bạch, bao gồm vé, ăn uống, hướng dẫn viên, bảo hiểm, có ưu đãi cho nhóm và trẻ em.\n🚗 - Phương tiện: Xe khách giường nằm, tàu hỏa, máy bay, đưa đón tận nhà.\n🌤️ - Thời tiết: Khí hậu ôn đới, thay đổi theo mùa, có lời khuyên trang phục và thời điểm đi phù hợp.\n\nBạn có thể hỏi chi tiết về bất kỳ phần nào hoặc yêu cầu tư vấn cụ thể để chúng tôi hỗ trợ tốt nhất! 😊"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {"content_type": "text", "title": "Đặt tour ngay", "payload": "DAT_TOUR_NGAY"},
+                {"content_type": "text", "title": "Hỏi về chính sách", "payload": "HOI_CHINH_SACH"},
+                {"content_type": "text", "title": "Liên hệ hotline", "payload": "LIEN_HE_HOTLINE"}
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

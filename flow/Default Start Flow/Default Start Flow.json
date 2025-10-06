@@ -1,7 +1,0 @@
-{
-  "name": "projects/taybac-tour-bot/locations/global/agents/taybac-tour-bot/flows/Default Start Flow",
-  "displayName": "Default Start Flow",
-  "description": "",
-  "transitionRoutes": [],
-  "eventHandlers": []
-}

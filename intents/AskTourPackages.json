@@ -1,0 +1,181 @@
+{
+  "id": "abcdef12-3456-7890-abcd-ef1234567890",
+  "name": "AskTourPackages",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "pkg2-1",
+      "data": [
+        {"text": "Gói tour 2n1d"},
+        {"text": "Gói tour 2 ngày 1 đêm"},
+        {"text": "Tour 2n1d"},
+        {"text": "Tour 2 ngày 1 đêm"},
+        {"text": "2n1d"},
+        {"text": "2 ngày 1 đêm"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg3-1",
+      "data": [
+        {"text": "Gói tour 3n2d"},
+        {"text": "Gói tour 3 ngày 2 đêm"},
+        {"text": "Tour 3n2d"},
+        {"text": "Tour 3 ngày 2 đêm"},
+        {"text": "3n2d"},
+        {"text": "3 ngày 2 đêm"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg4-1",
+      "data": [
+        {"text": "Gói tour 4n3d"},
+        {"text": "Gói tour 4 ngày 3 đêm"},
+        {"text": "Tour 4n3d"},
+        {"text": "Tour 4 ngày 3 đêm"},
+        {"text": "4n3d"},
+        {"text": "4 ngày 3 đêm"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg5-1",
+      "data": [
+        {"text": "Gói tour 5n4d"},
+        {"text": "Gói tour 5 ngày 4 đêm"},
+        {"text": "Tour 5n4d"},
+        {"text": "Tour 5 ngày 4 đêm"},
+        {"text": "5n4d"},
+        {"text": "5 ngày 4 đêm"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-all",
+      "data": [
+        {"text": "Chi tiết các gói tour"},
+        {"text": "Thông tin các gói tour"},
+        {"text": "Các gói tour"},
+        {"text": "Danh sách gói tour"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-1",
+      "data": [
+        {"text": "gói tour?"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-2",
+      "data": [
+        {"text": "có gói tour nào"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-3",
+      "data": [
+        {"text": "tour packages"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-4",
+      "data": [
+        {"text": "các gói"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-5",
+      "data": [
+        {"text": "gói tour Tây Bắc"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-6",
+      "data": [
+        {"text": "tour mấy ngày"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-7",
+      "data": [
+        {"text": "gói 2n1d giá"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-8",
+      "data": [
+        {"text": "gói 3n2d"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-9",
+      "data": [
+        {"text": "gói 4n3d"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "pkg-ques-10",
+      "data": [
+        {"text": "gói 5n4d"}
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "✨ Lotus Nomad Travel mang đến đa dạng gói tour linh hoạt, phù hợp mọi nhu cầu khách hàng:\n\n🌙 Gói tour 2 ngày 1 đêm (2N1Đ):\n- Tour Mộc Châu 2N1Đ – T7 hàng tuần – 1.390.000đ/khách\n- Tour Mai Châu 2N1Đ – T7 hàng tuần – 1.490.000đ/khách\n- Tour Mù Cang Chải 2N1Đ – T7 hàng tuần – 1.590.000đ/khách\n- Tour Ninh Bình 2N1Đ – Hàng ngày – 1.500.000đ/khách\n\n🌙 Gói tour 3 ngày 2 đêm (3N2Đ):\n- Tour Hà Giang 3N2Đ – Khởi hành T6 hàng tuần – 2.590.000đ/khách\n- Tour Mù Cang Chải 3N2Đ – Khởi hành T6 hàng tuần – 2.190.000đ/khách\n- Tour Cao Bằng 3N2Đ – Khởi hành T6 hàng tuần – 2.390.000đ/khách\n- Tour Điện Biên 3N2Đ – Khởi hành T6 hàng tuần – 2.450.000đ/khách\n\n🌄 Gói tour 4 ngày 3 đêm (4N3Đ):\n- Tour Lào Cai – Yên Bái – Mộc Châu 4N3Đ – Khởi hành hàng ngày – 4.500.000đ/khách\n- Tour Lào Cai – Yên Bái 4N3Đ – Khởi hành hàng ngày – 4.300.000đ/khách\n\n🌄 Gói tour 5 ngày 4 đêm (5N4Đ):\n- Tour Hà Giang – Cao Bằng – Ba Bể 5N4Đ – Khởi hành thứ 4 hàng tuần – 5.500.000đ/khách\n- Tour Sơn La – Điện Biên – Lai Châu – SaPa 5N4Đ – Khởi hành thứ 4 hàng tuần – 5.500.000đ/khách\n\n💡 Tất cả tour đảm bảo an toàn, linh hoạt, hỗ trợ 24/7. Anh/chị muốn chọn tour nào hoặc cần thêm thông tin chi tiết, giá ưu đãi? 😊"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {"content_type": "text", "title": "Chốt gói này đi", "payload": "CHOT_GOI_NAY"},
+                {"content_type": "text", "title": "Ưu đãi/Khuyến mãi", "payload": "UU_DAI_KHUYEN_MAI"},
+                {"content_type": "text", "title": "Gói khác", "payload": "GOI_KHAC"}
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

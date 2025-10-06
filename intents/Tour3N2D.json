@@ -1,0 +1,135 @@
+{
+  "id": "b2c3d4e5-f678-9012-abcd-ef1234567890",
+  "name": "Tour3N2D",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "3n2d-1",
+      "data": [
+        {
+          "text": "Tour 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-2",
+      "data": [
+        {
+          "text": "Gói tour 3N2Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-3",
+      "data": [
+        {
+          "text": "Thông tin tour 3N2Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-4",
+      "data": [
+        {
+          "text": "Tôi muốn đi tour 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-5",
+      "data": [
+        {
+          "text": "Tour 3N2Đ có gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-6",
+      "data": [
+        {
+          "text": "Giới thiệu tour 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-7",
+      "data": [
+        {
+          "text": "Tour trung bình 3N2Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-8",
+      "data": [
+        {
+          "text": "Tôi muốn tham khảo tour 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-9",
+      "data": [
+        {
+          "text": "Tôi muốn tìm hiểu tour 3N2Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3n2d-10",
+      "data": [
+        {
+          "text": "Tôi muốn biết về tour 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "🌙 Gói tour 3 ngày 2 đêm (3N2Đ):\n- Tour Hà Giang 3N2Đ – Khởi hành T6 hàng tuần – 2.590.000đ/khách\n- Tour Mù Cang Chải 3N2Đ – Khởi hành T6 hàng tuần – 2.190.000đ/khách\n- Tour Cao Bằng 3N2Đ – Khởi hành T6 hàng tuần – 2.390.000đ/khách\n- Tour Điện Biên 3N2Đ – Khởi hành T6 hàng tuần – 2.450.000đ/khách\n\n💡 Liên hệ để được tư vấn chi tiết và đặt tour ngay hôm nay! 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

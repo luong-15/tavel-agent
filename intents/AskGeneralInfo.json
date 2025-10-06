@@ -1,259 +1,114 @@
 {
-  "id": "55555555-6666-7777-8888-999999999999",
+  "id": "87654321-4321-4321-4321-abcdefabcdef",
   "name": "AskGeneralInfo",
   "auto": true,
   "contexts": [],
   "userSays": [
     {
       "id": "info-1",
-      "data": [
-        {
-          "text": "thông tin về tour Tây Bắc",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "thông tin về tour Tây Bắc"}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "info-2",
-      "data": [
-        {
-          "text": "tour du lịch Tây Bắc là gì",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "tour du lịch Tây Bắc là gì"}],
       "isTemplate": false,
       "count": 0
     },
     {
       "id": "info-3",
-      "data": [
-        {
-          "text": "giới thiệu về Tây Bắc",
-          "userDefined": false
-        }
-      ],
+      "data": [{"text": "giới thiệu về Tây Bắc"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-33",
-      "data": [
-        {
-          "text": "Tour này khác gì so với các công ty khác?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-1",
+      "data": [{"text": "liên hệ"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-34",
-      "data": [
-        {
-          "text": "Có điểm tham quan độc quyền không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-2",
+      "data": [{"text": "số điện thoại"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-35",
-      "data": [
-        {
-          "text": "Có hướng dẫn viên riêng cho đoàn không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-3",
+      "data": [{"text": "email công ty"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-36",
-      "data": [
-        {
-          "text": "Có hỗ trợ MC dẫn chương trình trong gala không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-4",
+      "data": [{"text": "địa chỉ văn phòng"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-37",
-      "data": [
-        {
-          "text": "Có dịch vụ photographer riêng không?",
-          "userDefined": false
-        }
-      ],
+      "id": "info-4",
+      "data": [{"text": "thông tin?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-38",
-      "data": [
-        {
-          "text": "Tour có thiết kế riêng cho gia đình/cặp đôi không?",
-          "userDefined": false
-        }
-      ],
+      "id": "info-5",
+      "data": [{"text": "giới thiệu?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-39",
-      "data": [
-        {
-          "text": "Có được chọn lịch trình theo ý khách không?",
-          "userDefined": false
-        }
-      ],
+      "id": "info-6",
+      "data": [{"text": "tour Tây Bắc là gì"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-40",
-      "data": [
-        {
-          "text": "Có thiện nguyện cộng đồng không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-5",
+      "data": [{"text": "liên hệ?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-40b",
-      "data": [
-        {
-          "text": "Có chụp flycam không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-6",
+      "data": [{"text": "số điện thoại?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-41",
-      "data": [
-        {
-          "text": "Có dịch vụ xe VIP không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-7",
+      "data": [{"text": "email?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-42",
-      "data": [
-        {
-          "text": "Có thể ghép đoàn với khách lẻ không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-8",
+      "data": [{"text": "địa chỉ?"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-43",
-      "data": [
-        {
-          "text": "Có quà lưu niệm kèm theo không?",
-          "userDefined": false
-        }
-      ],
+      "id": "info-7",
+      "data": [{"text": "thông tin tour"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-44",
-      "data": [
-        {
-          "text": "Nếu đi trễ 1 ngày có thể nhập tour giữa chừng không?",
-          "userDefined": false
-        }
-      ],
+      "id": "info-8",
+      "data": [{"text": "giới thiệu Tây Bắc"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-45",
-      "data": [
-        {
-          "text": "Có hướng dẫn viên biết ngoại ngữ không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-9",
+      "data": [{"text": "hotline"}],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "info-46",
-      "data": [
-        {
-          "text": "Có y tá/bác sĩ đi cùng đoàn không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "info-47",
-      "data": [
-        {
-          "text": "Có chính sách hỗ trợ khách đi một mình không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "info-48",
-      "data": [
-        {
-          "text": "Có phụ phí mùa cao điểm không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "info-49",
-      "data": [
-        {
-          "text": "Có thể thanh toán trả góp không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "info-50",
-      "data": [
-        {
-          "text": "Có thể thanh toán qua thẻ/tài khoản ngân hàng không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "info-51",
-      "data": [
-        {
-          "text": "Có xuất hóa đơn VAT không?",
-          "userDefined": false
-        }
-      ],
+      "id": "contact-10",
+      "data": [{"text": "fanpage"}],
       "isTemplate": false,
       "count": 0
     }
@@ -265,7 +120,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Tour du lịch Tây Bắc của chúng tôi là hành trình khám phá vùng núi Tây Bắc Việt Nam huyền bí, nơi hội tụ thiên nhiên hùng vĩ với những đỉnh núi cao chót vót, văn hóa dân tộc đa dạng và ẩm thực đặc trưng thơm ngon. Chúng tôi chuyên tổ chức tour đến các điểm nổi tiếng như Sapa (trekking Fansipan hùng vĩ, bản Cát Cát thơ mộng), Mộc Châu (đồi chè trái tim xanh mướt, hang Dơi kỳ thú), Mai Châu (thung lũng yên bình, homestay dân tộc Thái ấm cúng).\n\n**Điểm nổi bật và khác biệt:**\n- **Lịch trình linh hoạt:** Tùy chỉnh theo nhu cầu nhóm (gia đình vui vẻ, cặp đôi lãng mạn, đoàn doanh nghiệp năng động, khách lẻ tự do), có thể chọn lịch trình theo ý khách để phù hợp nhất.\n- **Đội ngũ chuyên nghiệp:** Hướng dẫn viên địa phương thân thiện biết ngoại ngữ (Anh, Trung, Hàn), y tá/bác sĩ đi kèm hỗ trợ sức khỏe 24/7, MC dẫn chương trình gala sôi động.\n- **Dịch vụ độc quyền:** Thiện nguyện cộng đồng ý nghĩa, chụp flycam góc nhìn tuyệt đẹp, photographer riêng ghi lại khoảnh khắc, xe VIP cao cấp thoải mái, quà lưu niệm tặng kèm.\n- **Trải nghiệm đặc biệt:** Ghép đoàn an toàn cho khách đi một mình, nhập tour giữa chừng nếu trễ lịch, hỗ trợ khách lẻ tận tình.\n- **Thanh toán tiện lợi:** Trả góp linh hoạt, chuyển khoản thẻ/ngân hàng an toàn, xuất hóa đơn VAT chính thức. Phụ phí mùa cao điểm (Lễ/Tết) rõ ràng, minh bạch, không ẩn phí.\n\nTour đảm bảo an toàn tuyệt đối, bảo hiểm đầy đủ (20 triệu đồng). Bạn quan tâm tour nào, đi với ai, hoặc có yêu cầu đặc biệt để tôi tư vấn chi tiết? 😊"
+          "speech": "📋 Dạ, em xin giới thiệu các gói tour chính của Lotus Nomad Travel tại Tây Bắc:\n\n🗓️ **Gói 2N1Đ (Thứ 7 khởi hành):** Khám phá Mộc Châu, Mai Châu, Mù Cang Chải, Ninh Bình. Giá từ 2.5-3.5 triệu/khách.\n\n🗓️ **Gói 3N2Đ (Thứ 6 khởi hành):** Hà Giang, Cao Bằng, Điện Biên. Giá 4-5 triệu/khách.\n\n🗓️ **Gói 4N3Đ (Hàng ngày):** Lào Cai - Yên Bái - Mộc Châu hoặc Lào Cai - Yên Bái. Giá 5-6 triệu/khách.\n\n🗓️ **Gói 5N4Đ (Thứ 4 khởi hành):** Hà Giang - Cao Bằng - Ba Bể hoặc Sơn La - Điện Biên - Lai Châu - SaPa. Giá 7-8 triệu/khách.\n\n📞 **Thông tin liên hệ:**\n- 📱 Hotline: 1900-xxxx\n- 📧 Email: info@taybactour.vn\n- 🏢 Địa chỉ: 123 Đường ABC, Quận Hoàn Kiếm, Hà Nội\n- 📘 Fanpage Facebook: fb.com/taybactour\n- 💬 Zalo OA: @taybactour\n\nBạn cần hỗ trợ gì thêm hoặc muốn đặt tour nào ạ? 😊"
         },
         {
           "type": 4,
@@ -273,21 +128,9 @@
           "payload": {
             "facebook": {
               "quick_replies": [
-                {
-                  "content_type": "text",
-                  "title": "Đặt tour ngay",
-                  "payload": "DAT_TOUR_NGAY"
-                },
-                {
-                  "content_type": "text",
-                  "title": "Hỏi về chính sách",
-                  "payload": "HOI_CHINH_SACH"
-                },
-                {
-                  "content_type": "text",
-                  "title": "Liên hệ hotline",
-                  "payload": "LIEN_HE_HOTLINE"
-                }
+                {"content_type": "text", "title": "Ưu đãi/Khuyến mãi", "payload": "UU_DAI_KHUYEN_MAI"},
+                {"content_type": "text", "title": "Tôi muốn chốt gói này", "payload": "CHOT_GOI_NAY"},
+                {"content_type": "text", "title": "Gói dài ngày hơn", "payload": "GOI_DAI_NGAY_HON"}
               ]
             }
           }

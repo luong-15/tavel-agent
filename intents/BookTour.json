@@ -2,7 +2,7 @@
   "id": "22222222-3333-4444-5555-666666666666",
   "name": "BookTour",
   "auto": true,
-  "contexts": ["booking_active"],
+  "contexts": [],
   "userSays": [
     {
       "id": "book-1",
@@ -48,35 +48,223 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "book-4",
+      "data": [
+        {
+          "text": "Tôi muốn đặt tour Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-5",
+      "data": [
+        {
+          "text": "Book tour Sapa",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-6",
+      "data": [
+        {
+          "text": "Đặt tour du lịch Mộc Châu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-7",
+      "data": [
+        {
+          "text": "Liên hệ đặt tour Mai Châu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-8",
+      "data": [
+        {
+          "text": "Tôi muốn book tour Tây Bắc từ Hà Nội",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-9",
+      "data": [
+        {
+          "text": "Đặt tour nhóm 4 người đi Sapa",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-10",
+      "data": [
+        {
+          "text": "Tour Tây Bắc bao gồm gì? Đặt ngay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-11",
+      "data": [
+        {
+          "text": "Tôi cần đặt tour du lịch Tây Bắc cho gia đình",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-12",
+      "data": [
+        {
+          "text": "Book tour Tây Bắc giá rẻ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-13",
+      "data": [
+        {
+          "text": "Đặt tour Sapa 3 ngày 2 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-14",
+      "data": [
+        {
+          "text": "Liên hệ đặt tour du lịch Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-15",
+      "data": [
+        {
+          "text": "Tôi muốn đặt tour du lịch Tây Bắc. Tour đi từ Hà Nội, 4 người lớn, 2 trẻ em, đi bằng xe khách, thời gian 3 ngày 2 đêm, tháng 10 năm nay. Tour bao gồm ăn uống, khách sạn, vé tham quan, hướng dẫn viên. Giá bao nhiêu? Có ưu đãi không? Làm thế nào để đặt? Cảm ơn.",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-16",
+      "data": [
+        {
+          "text": "Tôi muốn đặt tour Tây Bắc từ Hà Nội cho 4 người lớn và 2 trẻ em bằng xe khách 3 ngày 2 đêm tháng 10. Bao gồm ăn ở vé tham quan HDV. Giá và ưu đãi? Cách đặt?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-17",
+      "data": [
+        {
+          "text": "Đặt tour Tây Bắc: khởi hành Hà Nội, nhóm 6 người (4 lớn 2 trẻ), xe khách, 3N2Đ tháng 10, full board + vé + guide. Quote price with discount? Booking process?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-18",
+      "data": [
+        {
+          "text": "Cho mình book gói này",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "book-19",
+      "data": [
+        {
+          "text": "Chốt gói này đi",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
     {
       "resetContexts": false,
-      "parameters": [
-        {
-          "id": "bf0e9d8c-4b3a-11ee-be56-0242ac120002",
-          "name": "tour",
-          "required": false,
-          "dataType": "@TayBacTour"
-        },
-        {
-          "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
-          "name": "destination",
-          "required": false,
-          "dataType": "@TayBacDestination"
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": "Tuyệt vời! Tôi sẽ giúp bạn đặt tour $tour đến $destination. Vui lòng cung cấp thông tin: số lượng người, ngày khởi hành, phương tiện di chuyển. Sau đó tôi sẽ kiểm tra khả dụng và gửi xác nhận! 📅✈️"
+          "speech": "💼 Dạ, để chốt đơn anh/chị vui lòng chuyển khoản cọc 30% tổng giá tour vào tài khoản:\n\n🏦 0988747356 - Lotus Nomad Travel - Vietcombank\n\nSau khi nhận bill, em sẽ xác nhận và gửi voucher tour ngay ạ! 😊"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Tôi gửi bill rồi (Xác nhận)",
+                  "payload": "GUI_BILL_XAC_NHAN"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Tôi muốn đổi tour",
+                  "payload": "DOI_TOUR"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Tôi muốn hủy tour",
+                  "payload": "HUY_TOUR"
+                }
+              ]
+            }
+          }
         }
       ]
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

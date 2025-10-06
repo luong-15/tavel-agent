@@ -116,17 +116,6 @@
       "count": 0
     },
     {
-      "id": "price-10",
-      "data": [
-        {
-          "text": "Có khuyến mãi không?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
       "id": "price-11",
       "data": [
         {
@@ -202,6 +191,145 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "price-18",
+      "data": [
+        {
+          "text": "giá?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-19",
+      "data": [
+        {
+          "text": "bao nhiêu?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-20",
+      "data": [
+        {
+          "text": "phí?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-21",
+      "data": [
+        {
+          "text": "giá rẻ không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-22",
+      "data": [
+        {
+          "text": "tour giá bao nhiêu",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+
+    {
+      "id": "price-24",
+      "data": [
+        {
+          "text": "giá cho trẻ em",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-25",
+      "data": [
+        {
+          "text": "bao gồm gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-26",
+      "data": [
+        {
+          "text": "có phụ thu không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-27",
+      "data": [
+        {
+          "text": "giá tour Tây Bắc",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-28",
+      "data": [
+        {
+          "text": "tour @TayBacTour giá",
+          "userDefined": false
+        },
+        {
+          "text": "@TayBacTour",
+          "alias": "TayBacTour",
+          "meta": "@TayBacTour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-29",
+      "data": [
+        {
+          "text": "giá vé máy bay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "price-30",
+      "data": [
+        {
+          "text": "phí tour bao gồm ăn uống không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
@@ -211,7 +339,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Giá tour Tây Bắc của chúng tôi rất cạnh tranh, minh bạch và giá trị cao so với dịch vụ 5 sao. Dưới đây là bảng giá chi tiết cho tour 3-4 ngày (có thể tùy chỉnh theo lịch trình):\n\n**Giá cơ bản (người lớn, đã bao gồm VAT):**\n- 🚗 Xe khách giường nằm cao cấp (5-6h từ Hà Nội): 2.500.000đ/người\n- 🚂 Tàu hỏa đêm Sapa (an toàn, ngắm cảnh): 3.200.000đ/người\n- ✈️ Máy bay khứ hồi (1h bay, tiện lợi): 4.500.000đ/người (vé nội địa, có thể thay đổi theo hãng bay)\n\n**Bao gồm đầy đủ:** Vé phương tiện khứ hồi, khách sạn/homestay 3-4 sao (phòng đôi), 3 bữa ăn/ngày (đặc sản địa phương), hướng dẫn viên chuyên nghiệp, bảo hiểm du lịch 20 triệu đồng, vé tham quan tất cả điểm (Fansipan, bản làng, chợ phiên), xe đưa đón nội địa, nước uống suốt hành trình.\n\n**Giá ưu đãi:**\n- Trẻ em (2-11 tuổi): Giảm 20-30% tùy độ tuổi (không kèm giường).\n- Người cao tuổi (trên 60): Giảm 10%.\n- Nhóm 5 người trở lên: Giảm thêm 10-15%.\n- Combo gia đình (2 người lớn + 1 trẻ em): Giảm 500.000đ.\n- Ưu đãi mùa thấp điểm (tháng 6-8, 12-2): Giảm 300.000đ/người.\n\n**Không phát sinh chi phí:** Tất cả đã bao gồm, không phụ thu ăn uống, vé tham quan hay phương tiện nội địa. Nếu tự túc phương tiện, giảm thêm 500.000-1.000.000đ.\n\nBạn muốn chọn phương tiện nào, số lượng người, hoặc lịch trình cụ thể để tôi báo giá chính xác và ưu đãi cá nhân hóa? 😊"
+          "speech": "💰 Giá tour Tây Bắc của chúng tôi rất cạnh tranh, minh bạch và giá trị cao so với dịch vụ 5 sao. Dưới đây là bảng giá chi tiết cho tour 3-4 ngày (có thể tùy chỉnh theo lịch trình):\n\n📌 **Giá cơ bản (người lớn, đã bao gồm VAT):**\n- 🚗 Xe khách giường nằm cao cấp (5-6h từ Hà Nội): 2.500.000đ/người\n- 🚂 Tàu hỏa đêm Sapa (an toàn, ngắm cảnh): 3.200.000đ/người\n- ✈️ Máy bay khứ hồi (1h bay, tiện lợi): 4.500.000đ/người (vé nội địa, có thể thay đổi theo hãng bay)\n\n✅ **Bao gồm đầy đủ:**\n• Vé phương tiện khứ hồi từ Hà Nội\n• Khách sạn/homestay 3-4 sao (phòng đôi)\n• 3 bữa ăn/ngày (đặc sản địa phương, buffet)\n• Hướng dẫn viên chuyên nghiệp tiếng Việt/Anh\n• Bảo hiểm du lịch 20 triệu đồng/người\n• Vé tham quan tất cả điểm (Fansipan, bản làng, chợ phiên)\n• Xe đưa đón nội địa, nước uống suốt hành trình\n• Bảo hiểm tai nạn 100 triệu đồng/người\n\n🎉 **Giá ưu đãi chi tiết:**\n• Trẻ em (2-5 tuổi): Miễn phí (không kèm giường)\n• Trẻ em (6-11 tuổi): Giảm 30% (có giường)\n• Người cao tuổi (trên 60): Giảm 10%\n• Nhóm 5 người: Giảm 10%\n• Nhóm 10 người: Giảm 15%\n• Nhóm 20 người: Giảm 20%\n• Combo gia đình (2 người lớn + 1 trẻ em): Giảm 500.000đ\n• Ưu đãi mùa thấp điểm (tháng 6-8, 12-2): Giảm 300.000đ/người\n• Học sinh/sinh viên: Giảm 5% (có thẻ)\n\n❗ **Không phát sinh chi phí:** Tất cả đã bao gồm, không phụ thu ăn uống, vé tham quan hay phương tiện nội địa. Nếu tự túc phương tiện, giảm thêm 500.000-1.000.000đ.\n\n💳 **Phương thức thanh toán:** Tiền mặt, chuyển khoản, thẻ tín dụng (phí 3%), ví điện tử (MoMo, ZaloPay).\n\nBạn muốn chọn phương tiện nào, số lượng người, hoặc lịch trình cụ thể để tôi báo giá chính xác và ưu đãi cá nhân hóa? 😊"
         },
         {
           "type": 4,

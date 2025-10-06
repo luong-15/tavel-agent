@@ -33,6 +33,18 @@
       "data": [{"text": "chào buổi sáng", "userDefined": false}],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "greet-6",
+      "data": [{"text": "shop ơi", "userDefined": false}],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "greet-7",
+      "data": [{"text": "Bắt đầu", "userDefined": false}],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
@@ -42,7 +54,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Xin chào! Chào mừng bạn đến với Tây Bắc Tour!\n\nTôi có thể giúp bạn:\n• Tư vấn tour Sapa, Mộc Châu, Mai Châu\n• Xem lịch trình và giá tour\n• Đặt tour nhanh chóng\n• Giải đáp thắc mắc\n\nBạn quan tâm điều gì?"
+          "speech": "Xin chào Quý khách, Lotus Nomad Travel rất hân hạnh được đồng hành cùng Quý khách... Em có thể hỗ trợ gì cho mình hôm nay ạ?"
         },
         {
           "type": 4,
@@ -52,23 +64,18 @@
               "quick_replies": [
                 {
                   "content_type": "text",
-                  "title": "Xem tour",
-                  "payload": "XEM_TOUR"
+                  "title": "Xem Tour 2N1Đ",
+                  "payload": "XEM_TOUR_2N1D"
                 },
                 {
                   "content_type": "text",
-                  "title": "Giá tour",
-                  "payload": "GIA_TOUR"
+                  "title": "Xem Tour 3N2Đ",
+                  "payload": "XEM_TOUR_3N2D"
                 },
                 {
                   "content_type": "text",
-                  "title": "Đặt tour",
-                  "payload": "DAT_TOUR"
-                },
-                {
-                  "content_type": "text",
-                  "title": "Liên hệ",
-                  "payload": "LIEN_HE"
+                  "title": "Ưu đãi hiện tại",
+                  "payload": "UU_DAI_HIEN_TAI"
                 }
               ]
             }

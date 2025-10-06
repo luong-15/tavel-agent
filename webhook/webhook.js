@@ -1,19 +1,19 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-
-const app = express();
-app.use(bodyParser.json());
-
 // Helper function to detect Vietnamese text
 function isVietnamese(text) {
   const vietnamesePattern = /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ]/;
   return vietnamesePattern.test(text);
 }
 
-app.post('/taybac-tour', (req, res) => {
-  const intent = req.body.queryResult.intent.displayName;
-  const parameters = req.body.queryResult.parameters;
-  const queryText = req.body.queryResult.queryText;
+// Parse command line arguments
+const args = process.argv.slice(2);
+if (args.length < 2) {
+  console.log('Usage: node webhook.js <intent> <parameters_json> [queryText]');
+  process.exit(1);
+}
+
+const intent = args[0];
+const parameters = JSON.parse(args[1]);
+const queryText = args[2] || '';
 
   let responseText = '';
   let suggestions = [];
@@ -45,8 +45,6 @@ app.post('/taybac-tour', (req, res) => {
     10: 15, // 10+ người giảm 15%
     20: 20  // 20+ người giảm 20%
   };
-
-  const availability = Math.random() > 0.1; // 90% available
 
   // Detect if user is speaking Vietnamese
   const userLanguage = isVietnamese(queryText) ? 'vi' : 'en';
@@ -462,43 +460,66 @@ app.post('/taybac-tour', (req, res) => {
       const destBook = parameters.destination || 'Sapa';
       const bookingDate = parameters.startDate || 'chưa xác định';
       const groupSize = parameters.numPeople || 1;
+      const transportBook = parameters.TransportType || 'xe_khach';
 
-      if (availability) {
-        if (userLanguage === 'vi') {
-          responseText = `✅ **Xác nhận đặt tour:**\n\n`;
-          responseText += `🎯 Tour: ${tourBook} - ${destBook}\n`;
-          responseText += `📅 Ngày đi: ${bookingDate}\n`;
-          responseText += `👥 Số người: ${groupSize}\n\n`;
+      if (userLanguage === 'vi') {
+        // Calculate price based on tour, transport, group size
+        let basePrice = tourPrices[tourBook]?.[transportBook] || 2500000;
+        let discount = 0;
+        if (groupSize >= 5) discount = 10;
+        if (groupSize >= 10) discount = 15;
+        const finalPrice = Math.round(basePrice * (1 - discount / 100));
 
-          responseText += `📋 **Bước tiếp theo:**\n`;
-          responseText += `1. Cung cấp thông tin liên hệ đầy đủ\n`;
-          responseText += `2. Chọn phương tiện di chuyển\n`;
-          responseText += `3. Thanh toán cọc 30%\n`;
-          responseText += `4. Nhận xác nhận booking\n\n`;
+        responseText = `✅ **Xác nhận yêu cầu đặt tour Tây Bắc!**\n\n`;
+        responseText += `🎯 **Tour:** ${tourBook.toUpperCase()} đến ${destBook}\n`;
+        responseText += `👥 **Số người:** ${groupSize} (bao gồm trẻ em)\n`;
+        responseText += `🚗 **Phương tiện:** ${transportBook.replace('_', ' ')}\n`;
+        responseText += `📅 **Thời gian:** 3 ngày 2 đêm (tháng ${bookingDate ? new Date(bookingDate).getMonth() + 1 : '10'})\n\n`;
 
-          responseText += `**📞 Liên hệ ngay:** 1900-1234\n`;
-          responseText += `**💬 Zalo:** 0987-654-321\n\n`;
-          responseText += `Cảm ơn bạn đã tin tưởng! 🙏`;
+        responseText += `💎 **Lựa chọn gói tour:**\n`;
+        responseText += `• **Tiêu chuẩn (Economy):** 2.500.000 - 3.500.000đ/người\n`;
+        responseText += `  - Khách sạn 3 sao, xe giường nằm, ăn 3 bữa/ngày\n`;
+        responseText += `• **Cao cấp (Luxury):** 4.000.000 - 5.500.000đ/người\n`;
+        responseText += `  - Resort 4-5 sao, xe limousine, ăn buffet cao cấp, HDV riêng\n\n`;
 
-          suggestions = [
-            { title: "Xem chính sách" },
-            { title: "Liên hệ hotline" },
-            { title: "Hỏi về thanh toán" }
-          ];
-        } else {
-          responseText = `${tourBook} tour to ${destBook} is available! Please provide contact details for booking confirmation.`;
-        }
+        responseText += `✨ **Giá của bạn:** ${finalPrice.toLocaleString()}đ/người (đã giảm ${discount}% nhóm)\n\n`;
+
+        responseText += `📋 **Đã bao gồm:**\n`;
+        responseText += `• Xe đưa đón khứ hồi từ Hà Nội\n`;
+        responseText += `• Lưu trú 3 sao (phòng đôi/twin)\n`;
+        responseText += `• Ăn 3 bữa/ngày (Việt Nam & địa phương)\n`;
+        responseText += `• Hướng dẫn viên chuyên nghiệp\n`;
+        responseText += `• Vé tham quan tất cả điểm\n`;
+        responseText += `• Bảo hiểm du lịch 20 triệuđ\n\n`;
+
+        responseText += `❌ **Không bao gồm:**\n`;
+        responseText += `• Chi phí cá nhân, tips HDV (50k/người/ngày)\n`;
+        responseText += `• Đồ uống có cồn, mua sắm\n`;
+        responseText += `• Phụ phí phòng đơn (+500k)\n\n`;
+
+        responseText += `🎁 **Ưu đãi đặc biệt:**\n`;
+        responseText += `• Trẻ em <5 tuổi: Miễn phí\n`;
+        responseText += `• 5-10 tuổi: Giảm 50%\n`;
+        responseText += `• Nhóm ${groupSize >= 5 ? 'của bạn' : '5+ người'}: Đã áp dụng ${discount}%\n\n`;
+
+        responseText += `📝 **Quy trình đặt tour:**\n`;
+        responseText += `1. **Xác nhận chi tiết:** Gọi/Zalo 1900-1234 hoặc chat để cung cấp họ tên, số ĐT, email\n`;
+        responseText += `2. **Cọc đặt chỗ:** 30% tổng giá trị (chuyển khoản/Momo/ZaloPay)\n`;
+        responseText += `3. **Hợp đồng & thanh toán:** Ký online, trả đủ trước 7 ngày\n`;
+        responseText += `4. **Xác nhận cuối:** Nhận lịch trình chi tiết & voucher\n\n`;
+
+        responseText += `⏰ **Khả dụng:** Còn chỗ! Book ngay để giữ giá tốt.\n`;
+        responseText += `📞 **Liên hệ ngay:** Hotline 1900-1234 | Zalo: 0987-654-321 | Email: info@taybactour.vn\n\n`;
+        responseText += `Cảm ơn bạn! Chúng tôi cam kết mang đến trải nghiệm tuyệt vời. 😊🏔️`;
+
+        suggestions = [
+          { title: "Chọn gói Economy" },
+          { title: "Chọn gói Luxury" },
+          { title: "Liên hệ đặt ngay" }
+        ];
       } else {
-        if (userLanguage === 'vi') {
-          responseText = `❌ **Xin lỗi tour đã hết chỗ!**\n\n`;
-          responseText += `🔄 **Gợi ý thay thế:**\n`;
-          responseText += `• Chọn ngày khác\n`;
-          responseText += `• Tour tương tự khác\n`;
-          responseText += `• Đăng ký waiting list\n\n`;
-          responseText += `📞 **Tư vấn:** 1900-1234`;
-        } else {
-          responseText = `Sorry, tour is fully booked. Try different dates or similar tours.`;
-        }
+        // English fallback
+        responseText = `Booking confirmed for ${tourBook} to ${destBook} (${groupSize} people, ${transport}). Economy: 2.5M-3.5M VND/person. Luxury: 4M-5.5M VND/person. Includes transport, meals, hotel, guide. Deposit 30% to book. Contact 1900-1234.`;
       }
       break;
 
@@ -875,14 +896,9 @@ app.post('/taybac-tour', (req, res) => {
     });
   }
 
-  res.json({
+  const response = {
     fulfillmentText: responseText,
     fulfillmentMessages: messages
-  });
-});
+  };
 
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`🚀 Lotus Nomad Travel Webhook listening on port ${port}`);
-  console.log(`🌐 Ready to serve tour information and bookings!`);
-});
+  console.log(JSON.stringify(response, null, 2));

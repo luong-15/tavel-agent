@@ -10,7 +10,36 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Xin lỗi, tôi chưa hiểu rõ ý bạn. 🤔\n\nTôi có thể giúp bạn:\n🎯 **Tư vấn tour:** Sapa, Mộc Châu, Mai Châu\n📅 **Xem lịch trình:** Chi tiết từng ngày\n💰 **Báo giá:** Theo phương tiện di chuyển\n📝 **Đặt tour:** Nhanh chóng và dễ dàng\n❓ **Hỏi đáp:** Thời tiết, đồ mang, thanh toán\n\nHãy thử hỏi theo cách khác hoặc chọn từ gợi ý trên. Hoặc gọi hotline 1900-xxxx để được hỗ trợ trực tiếp! 📞"
+          "speech": "Dạ, em chưa hiểu rõ ý anh/chị. Anh/chị có thể nói rõ hơn hoặc chọn một trong các lựa chọn dưới đây không ạ?"
+        },
+        {
+          "type": 0,
+          "speech": "Thông tin bạn cung cấp chưa hợp lệ. Vui lòng kiểm tra lại."
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Xem Tour 2N1Đ",
+                  "payload": "XEM_TOUR_2N1D"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Ưu đãi hiện tại",
+                  "payload": "UU_DAI_HIEN_TAI"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ hotline",
+                  "payload": "LIEN_HE_HOTLINE"
+                }
+              ]
+            }
+          }
         }
       ],
       "affectedContexts": []

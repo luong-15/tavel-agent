@@ -1,0 +1,135 @@
+{
+  "id": "d4e5f678-9012-3456-abcd-ef1234567890",
+  "name": "Tour5N4D",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "5n4d-1",
+      "data": [
+        {
+          "text": "Tour 5 ngày 4 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-2",
+      "data": [
+        {
+          "text": "Gói tour 5N4Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-3",
+      "data": [
+        {
+          "text": "Thông tin tour 5N4Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-4",
+      "data": [
+        {
+          "text": "Tôi muốn đi tour 5 ngày 4 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-5",
+      "data": [
+        {
+          "text": "Tour 5N4Đ có gì",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-6",
+      "data": [
+        {
+          "text": "Giới thiệu tour 5 ngày 4 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-7",
+      "data": [
+        {
+          "text": "Tour dài nhất 5N4Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-8",
+      "data": [
+        {
+          "text": "Tôi muốn tham khảo tour 5 ngày 4 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-9",
+      "data": [
+        {
+          "text": "Tôi muốn tìm hiểu tour 5N4Đ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5n4d-10",
+      "data": [
+        {
+          "text": "Tôi muốn biết về tour 5 ngày 4 đêm",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "🌄 Gói tour 5 ngày 4 đêm (5N4Đ):\n- Tour Hà Giang – Cao Bằng – Ba Bể 5N4Đ – Khởi hành thứ 4 hàng tuần – 5.500.000đ/khách\n- Tour Sơn La – Điện Biên – Lai Châu – SaPa 5N4Đ – Khởi hành thứ 4 hàng tuần – 5.500.000đ/khách\n\n💡 Liên hệ để được tư vấn chi tiết và đặt tour ngay hôm nay! 😊"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

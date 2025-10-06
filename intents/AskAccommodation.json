@@ -113,6 +113,116 @@
       ],
       "isTemplate": false,
       "count": 0
+    },
+    {
+      "id": "accomm-11",
+      "data": [
+        {
+          "text": "khách sạn?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-12",
+      "data": [
+        {
+          "text": "homestay?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-13",
+      "data": [
+        {
+          "text": "villa?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-14",
+      "data": [
+        {
+          "text": "ở đâu?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-15",
+      "data": [
+        {
+          "text": "phòng mấy sao",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-16",
+      "data": [
+        {
+          "text": "có bể bơi không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-17",
+      "data": [
+        {
+          "text": "mang thú cưng được không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-18",
+      "data": [
+        {
+          "text": "giá phòng",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-19",
+      "data": [
+        {
+          "text": "phòng có view không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "accomm-20",
+      "data": [
+        {
+          "text": "ở trung tâm không",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
     }
   ],
   "responses": [
@@ -122,7 +232,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Chúng tôi cung cấp các lựa chọn lưu trú đa dạng tại Tây Bắc, đảm bảo tiện lợi, an toàn và gần các điểm tham quan chính như Sapa, Mộc Châu, Mai Châu, để bạn dễ dàng khám phá mà không mất thời gian di chuyển:\n\n**Khách sạn 3-4 sao:** Phòng sạch sẽ, tiện nghi hiện đại (điều hòa, tivi, wifi miễn phí, nóng lạnh), ban công view núi sông hùng vĩ hoặc ruộng bậc thang vàng óng. Giá khoảng 1.5-2 triệu/phòng đôi, bao gồm bữa sáng buffet đa dạng, dịch vụ dọn phòng hàng ngày và khăn tắm sạch sẽ.\n\n**Homestay bản làng:** Trải nghiệm văn hóa dân tộc (H'Mông, Thái) chân thực, phòng ấm cúng với bếp lửa rực rỡ, giường gỗ ấm áp, gần bản Cát Cát hoặc thung lũng Mai Châu yên bình. Phù hợp gia đình/nhóm nhỏ (2-6 người), có thể mang thú cưng (liên hệ trước, phí vệ sinh nhỏ).\n\n**Villa riêng:** Cho gia đình lớn (4-8 người), bếp riêng đầy đủ, phòng khách rộng rãi, bể bơi ngoài trời (tùy chọn), sân vườn xanh tươi, giá 2-4 triệu/đêm. Riêng tư tuyệt đối, thoải mái như nhà riêng, có bếp nấu ăn gia đình với nguyên liệu địa phương.\n\n**Tiện ích chung:** Tất cả đều ở trung tâm thị trấn hoặc gần điểm tham quan (5-10 phút đi bộ/xe), dễ di chuyển. Một số khách sạn cao cấp có spa thư giãn, gym hiện đại, bể bơi trong nhà, phòng hội nghị. Giá phòng bao gồm dịch vụ giữ đồ an toàn, hỗ trợ 24/7, an ninh nghiêm ngặt và bảo hiểm toàn diện.\n\nBạn đi nhóm bao nhiêu người, có thú cưng không, hoặc thích kiểu lưu trú nào (khách sạn sang trọng, homestay văn hóa, villa riêng tư) để tôi tư vấn cụ thể? 😊"
+          "speech": "🏨 Chúng tôi cung cấp các lựa chọn lưu trú đa dạng tại Tây Bắc, đảm bảo tiện lợi, an toàn và gần các điểm tham quan chính như Sapa, Mộc Châu, Mai Châu, để bạn dễ dàng khám phá mà không mất thời gian di chuyển:\n\n🌟 **Khách sạn 3-4 sao:** Phòng sạch sẽ, tiện nghi hiện đại (điều hòa, tivi, wifi miễn phí, nóng lạnh), ban công view núi sông hùng vĩ hoặc ruộng bậc thang vàng óng. Giá khoảng 1.5-2 triệu/phòng đôi, bao gồm bữa sáng buffet đa dạng, dịch vụ dọn phòng hàng ngày và khăn tắm sạch sẽ.\n\n🏡 **Homestay bản làng:** Trải nghiệm văn hóa dân tộc (H'Mông, Thái) chân thực, phòng ấm cúng với bếp lửa rực rỡ, giường gỗ ấm áp, gần bản Cát Cát hoặc thung lũng Mai Châu yên bình. Phù hợp gia đình/nhóm nhỏ (2-6 người), có thể mang thú cưng (liên hệ trước, phí vệ sinh nhỏ).\n\n🏠 **Villa riêng:** Cho gia đình lớn (4-8 người), bếp riêng đầy đủ, phòng khách rộng rãi, bể bơi ngoài trời (tùy chọn), sân vườn xanh tươi, giá 2-4 triệu/đêm. Riêng tư tuyệt đối, thoải mái như nhà riêng, có bếp nấu ăn gia đình với nguyên liệu địa phương.\n\n✨ **Tiện ích chung:** Tất cả đều ở trung tâm thị trấn hoặc gần điểm tham quan (5-10 phút đi bộ/xe), dễ di chuyển. Một số khách sạn cao cấp có spa thư giãn, gym hiện đại, bể bơi trong nhà, phòng hội nghị. Giá phòng bao gồm dịch vụ giữ đồ an toàn, hỗ trợ 24/7, an ninh nghiêm ngặt và bảo hiểm toàn diện.\n\nBạn đi nhóm bao nhiêu người, có thú cưng không, hoặc thích kiểu lưu trú nào (khách sạn sang trọng, homestay văn hóa, villa riêng tư) để tôi tư vấn cụ thể? 😊"
         },
         {
           "type": 4,

@@ -1,14 +1,14 @@
 {
-  "id": "44444444-5555-6666-7777-888888888888",
+  "id": "123e4567-e89b-12d3-a456-426614174005",
   "name": "CancelBooking",
   "auto": true,
-  "contexts": ["booking_active"],
+  "contexts": [],
   "userSays": [
     {
       "id": "cancel-1",
       "data": [
         {
-          "text": "hủy tour",
+          "text": "Em muốn hủy tour có được không",
           "userDefined": false
         }
       ],
@@ -19,18 +19,7 @@
       "id": "cancel-2",
       "data": [
         {
-          "text": "hủy booking",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "cancel-3",
-      "data": [
-        {
-          "text": "không đi nữa",
+          "text": "tôi muốn hủy tour",
           "userDefined": false
         }
       ],
@@ -45,13 +34,38 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Tôi hiểu bạn muốn hủy tour. Vui lòng cung cấp mã booking để tôi kiểm tra chính sách hủy và hỗ trợ bạn. Lưu ý: Hủy trước 7 ngày được hoàn tiền 100%! ❌"
+          "speech": "Dạ, em rất tiếc khi anh/chị muốn hủy tour. Theo chính sách, cọc 30% không hoàn lại. Anh/chị có muốn đổi sang tour khác hoặc gợi ý tour phù hợp hơn không ạ? 😊"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Xem Tour 2N1Đ",
+                  "payload": "XEM_TOUR_2N1D"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Xem Tour 3N2Đ",
+                  "payload": "XEM_TOUR_3N2D"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Xem Tour 4N3Đ",
+                  "payload": "XEM_TOUR_4N3D"
+                }
+              ]
+            }
+          }
         }
       ]
     }
   ],
   "priority": 500000,
-  "webhookUsed": true,
+  "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": []

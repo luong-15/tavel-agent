@@ -1,0 +1,94 @@
+{
+  "id": "12345678-1234-5678-9abc-def012345678",
+  "name": "AskPromotions",
+  "auto": true,
+  "contexts": [],
+  "userSays": [
+    {
+      "id": "promo-1",
+      "data": [
+        {
+          "text": "Có ưu đãi gì không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "promo-2",
+      "data": [
+        {
+          "text": "Khuyến mãi hiện tại là gì?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "promo-3",
+      "data": [
+        {
+          "text": "Tour có giảm giá không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "promo-4",
+      "data": [
+        {
+          "text": "Có chương trình khuyến mãi nào không?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "🎉 Lotus Nomad Travel hiện có các chương trình ưu đãi hấp dẫn:\n\n- Giảm giá 10% cho nhóm từ 5 người trở lên.\n- Ưu đãi đặc biệt cho gia đình và trẻ em.\n- Giảm thêm 5% khi đặt tour trước 30 ngày.\n- Ưu đãi mùa thấp điểm (tháng 6-8, 12-2) giảm 300.000đ/người.\n\nVui lòng cho biết bạn quan tâm ưu đãi cho tour nào hoặc cần tư vấn chi tiết hơn nhé! 😊"
+        },
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "quick_replies": [
+                {
+                  "content_type": "text",
+                  "title": "Xem gói tour",
+                  "payload": "XEM_GOI_TOUR"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Đặt tour ngay",
+                  "payload": "DAT_TOUR_NGAY"
+                },
+                {
+                  "content_type": "text",
+                  "title": "Liên hệ tư vấn",
+                  "payload": "LIEN_HE_TU_VAN"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

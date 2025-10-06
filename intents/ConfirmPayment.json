@@ -1,14 +1,14 @@
 {
-  "id": "123e4567-e89b-12d3-a456-426614174004",
-  "name": "ChangeBooking",
+  "id": "123e4567-e89b-12d3-a456-426614174003",
+  "name": "ConfirmPayment",
   "auto": true,
   "contexts": [],
   "userSays": [
     {
-      "id": "change-1",
+      "id": "confirm-1",
       "data": [
         {
-          "text": "Muốn đổi gói tour có được không",
+          "text": "Em gửi bill nhé",
           "userDefined": false
         }
       ],
@@ -16,10 +16,10 @@
       "count": 0
     },
     {
-      "id": "change-2",
+      "id": "confirm-2",
       "data": [
         {
-          "text": "cho em đổi gói tour",
+          "text": "mình gửi bill",
           "userDefined": false
         }
       ],
@@ -34,7 +34,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Dạ, anh/chị có thể đổi gói tour được ạ. Phí đổi là 200.000đ/khách. Anh/chị muốn đổi sang gói nào? Em sẽ hỗ trợ ngay ạ! 😊"
+          "speech": "Dạ, em đã nhận được bill chuyển khoản của anh/chị. Đơn tour đã được chốt thành công! Lotus Nomad Travel rất hân hạnh được đồng hành cùng anh/chị. Chúc anh/chị có chuyến đi tuyệt vời! 😊"
         },
         {
           "type": 4,
@@ -44,18 +44,18 @@
               "quick_replies": [
                 {
                   "content_type": "text",
-                  "title": "Xem Tour 2N1Đ",
-                  "payload": "XEM_TOUR_2N1D"
+                  "title": "Tôi muốn đổi tour",
+                  "payload": "DOI_TOUR"
                 },
                 {
                   "content_type": "text",
-                  "title": "Xem Tour 3N2Đ",
-                  "payload": "XEM_TOUR_3N2D"
+                  "title": "Tôi muốn hủy tour",
+                  "payload": "HUY_TOUR"
                 },
                 {
                   "content_type": "text",
-                  "title": "Xem Tour 4N3Đ",
-                  "payload": "XEM_TOUR_4N3D"
+                  "title": "Liên hệ hỗ trợ",
+                  "payload": "LIEN_HE_HO_TRO"
                 }
               ]
             }
