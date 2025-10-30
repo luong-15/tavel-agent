@@ -1,10 +1,9 @@
 {
   "id": "12345678-1234-1234-1234-123456789abc",
-  "name": "TravelSeason",
-  "isOverridable": true,
-  "isEnum": true,
-  "automatedExpansion": false,
-  "entries": [
+  "name": "travel_season",
+  "displayName": "Travel Season",
+  "kind": "KIND_LIST",
+  "entities": [
     {
       "value": "spring",
       "synonyms": ["mùa xuân", "tháng 2-4", "tháng 2 đến tháng 4", "xuân"]
@@ -21,5 +20,8 @@
       "value": "winter",
       "synonyms": ["mùa đông", "tháng 12-1", "tháng 12 đến tháng 1", "đông"]
     }
-  ]
+  ],
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_UNSPECIFIED",
+  "fuzzyMatching": false,
+  "enableFuzzyExtraction": false
 }

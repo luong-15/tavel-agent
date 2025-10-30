@@ -1,10 +1,9 @@
 {
   "id": "af9e8d7c-4b3a-11ee-be56-0242ac120002",
-  "name": "TravelDuration",
-  "isOverridable": true,
-  "isEnum": true,
-  "automatedExpansion": false,
-  "entries": [
+  "name": "travel_duration",
+  "displayName": "Travel Duration",
+  "kind": "KIND_LIST",
+  "entities": [
     {
       "value": "2_ngay",
       "synonyms": ["2 ngày 1 đêm", "hai ngày một đêm", "cuối tuần", "weekend", "2 ngày", "hai ngày", "ngắn ngày", "tour ngắn", "2N1Đ"]
@@ -17,5 +16,8 @@
       "value": "4_ngay",
       "synonyms": ["4 ngày 3 đêm", "bốn ngày ba đêm", "4 ngày", "bốn ngày", "tour dài", "tour 4 ngày", "du lịch dài", "4N3Đ", "4d", "4ngay"]
     }
-  ]
+  ],
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_UNSPECIFIED",
+  "fuzzyMatching": false,
+  "enableFuzzyExtraction": false
 }

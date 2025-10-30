@@ -1,10 +1,9 @@
 {
   "id": "8f7e6d5c-4b3a-11ee-be56-0242ac120002",
-  "name": "TayBacDestination",
-  "isOverridable": true,
-  "isEnum": false,
-  "automatedExpansion": true,
-  "entries": [
+  "name": "tay_bac_destination",
+  "displayName": "Tay Bac Destination",
+  "kind": "KIND_LIST",
+  "entities": [
     {
       "value": "Sapa",
       "synonyms": [
@@ -79,5 +78,8 @@
         "MC"
       ]
     }
-  ]
+  ],
+  "autoExpansionMode": "AUTO_EXPANSION_MODE_DEFAULT",
+  "fuzzyMatching": false,
+  "enableFuzzyExtraction": false
 }
